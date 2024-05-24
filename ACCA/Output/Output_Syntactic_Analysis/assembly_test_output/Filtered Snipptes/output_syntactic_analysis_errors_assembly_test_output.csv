@@ -1,0 +1,319 @@
+Predicted Snippets;NASM Output Errors
+0x0b equ 0x0b;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+=15:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+ebx:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+bl: not bl \\n inc bl \\n inc bl;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+mov al, edi;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push bin/sh \\n push ebx;"assembly_instruction.asm:1: error: division operator may only be applied to scalar values
+"
+push [\\n pop eax \\n pop ecx;"assembly_instruction.asm:1: error: expression syntax error
+"
+0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80 db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov linefeed, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: error: invalid combination of opcode and operands
+"
+inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc;"assembly_instruction.asm:26: error: invalid combination of opcode and operands
+"
+inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+assembly_instruction.asm:2: error: invalid combination of opcode and operands
+assembly_instruction.asm:3: error: invalid combination of opcode and operands
+assembly_instruction.asm:4: error: invalid combination of opcode and operands
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+assembly_instruction.asm:6: error: invalid combination of opcode and operands
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+assembly_instruction.asm:9: error: invalid combination of opcode and operands
+assembly_instruction.asm:10: error: invalid combination of opcode and operands
+assembly_instruction.asm:11: error: invalid combination of opcode and operands
+assembly_instruction.asm:12: error: invalid combination of opcode and operands
+assembly_instruction.asm:13: error: invalid combination of opcode and operands
+assembly_instruction.asm:14: error: invalid combination of opcode and operands
+assembly_instruction.asm:15: error: invalid combination of opcode and operands
+assembly_instruction.asm:16: error: invalid combination of opcode and operands
+assembly_instruction.asm:17: error: invalid combination of opcode and operands
+"
+push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov filecontents, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+"
+push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov bl, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+"
+pop we;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n;"assembly_instruction.asm:18: error: comma, colon, decorator or end of line expected after operand
+"
+push temrinated \\n push '/bin//sh' \\n push ebx \\n push edx \\n push temrinated \\n push '/bin//sh' \\n push ebx \\n mov edx, esp;"assembly_instruction.asm:2: warning: character constant too long [-w+other]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: character constant too long [-w+other]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+"
+xor ax, bx \\n jz call decoded;"assembly_instruction.asm:2: error: comma, colon, decorator or end of line expected after operand
+"
+numeric 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;"assembly_instruction.asm:1: error: parser: instruction expected
+"
+push of /bin/sh \\n push eip \\n mov shellcode_label, esp;"assembly_instruction.asm:1: error: division operator may only be applied to scalar values
+"
+inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc;"assembly_instruction.asm:26: error: invalid combination of opcode and operands
+"
+reate: \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n mov 0x77, 0x;"assembly_instruction.asm:21: error: invalid combination of opcode and operands
+"
+inc L2 \\n jmp L2;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov mm0, \xor_value\;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+xor 0x17, 0x17;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov esi+35, esi;"assembly_instruction.asm:1: error: invalid register set size
+"
+buffersize word 0x68732f \\n 0x68732f \\n 0x6e69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0;"assembly_instruction.asm:1: error: parser: instruction expected
+assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:3: error: label or instruction expected at start of line
+assembly_instruction.asm:4: error: label or instruction expected at start of line
+assembly_instruction.asm:5: error: label or instruction expected at start of line
+assembly_instruction.asm:6: error: label or instruction expected at start of line
+assembly_instruction.asm:7: error: label or instruction expected at start of line
+assembly_instruction.asm:8: error: label or instruction expected at start of line
+assembly_instruction.asm:9: error: label or instruction expected at start of line
+assembly_instruction.asm:10: error: label or instruction expected at start of line
+assembly_instruction.asm:11: error: label or instruction expected at start of line
+assembly_instruction.asm:12: error: label or instruction expected at start of line
+assembly_instruction.asm:13: error: label or instruction expected at start of line
+assembly_instruction.asm:14: error: label or instruction expected at start of line
+assembly_instruction.asm:15: error: label or instruction expected at start of line
+assembly_instruction.asm:16: error: label or instruction expected at start of line
+"
+push 0-term \\n push cn/n \\n push ib//;"assembly_instruction.asm:3: error: expression syntax error
+"
+push 0x1ff9090 \\n push ecx \\n push 0x10 \\n push 0x1ff9090 \\n push ecx \\n push 0x10 \\n mov 0x10, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+"
+for: \\n 12*10: \\n quad-bytes:;"assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:3: error: parser: instruction expected
+"
+inc R1 \\n inc esi;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+xor 0x2c, esi;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov ebx, ptr;"assembly_instruction.asm:1: warning: `ptr' is not a NASM keyword [-w+ptr]
+assembly_instruction.asm:3: warning: `ptr' is not a NASM keyword [-w+ptr]
+"
+0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73 db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+mov eax, ASCII /bin/sh;"assembly_instruction.asm:1: error: division operator may only be applied to scalar values
+"
+xor shellcode_length, shellcode_length \\n mov byte [shellcode_length], shellcode_length;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov dword [[], esi;"assembly_instruction.asm:1: error: expression syntax error
+"
+mov esi, al;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+decode_pr: \\n inc decode_pr;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+"
+push socket_type \\n push = \\n push sock_stream;"assembly_instruction.asm:2: error: expression syntax error
+"
+add ax, di + 20;"assembly_instruction.asm:1: error: invalid register set size
+"
+pop ecx \\n pop stak \\n mov edi, esp;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+"
+backup al;"assembly_instruction.asm:1: error: parser: instruction expected
+"
+_ priv_setgid:;"assembly_instruction.asm:1: error: parser: instruction expected
+"
+mov: \\n =: \\n var2: \\n sys_listen: \\n bl:;"assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:5: error: label or instruction expected at start of line
+"
+mov ecx, ptr;"assembly_instruction.asm:1: warning: `ptr' is not a NASM keyword [-w+ptr]
+assembly_instruction.asm:3: warning: `ptr' is not a NASM keyword [-w+ptr]
+"
+ebx:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n;"assembly_instruction.asm:21: error: comma, colon, decorator or end of line expected after operand
+"
+mov sys_read, esp;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push [\\n pop ebp-4 \\n pop] \\n pop ebx;"assembly_instruction.asm:1: error: expression syntax error
+assembly_instruction.asm:3: error: expression syntax error
+"
+edx:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+"
+push proc/sys/kernel/randomize_va_space \\n push eax \\n mov ebx, esp;"assembly_instruction.asm:1: error: division operator may only be applied to scalar values
+"
+push [\\n pop esi +4;"assembly_instruction.asm:1: error: expression syntax error
+"
+mov eax, byte [ebx+8];"assembly_instruction.asm:1: error: mismatch in operand sizes
+"
+bound ebx, 0x68732f2f, 0x6e69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov breakpoint, esp;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push sizeof(struct;"assembly_instruction.asm:1: error: comma, colon, decorator or end of line expected after operand
+"
+pop bl;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push sys \\n push for \\n push dup2 \\n mov al, 0x68732f2f \\n mov dup2, 0x6e69622f \\n mov for, 0x69622f \\n mov dup2, 0x69622f \\n mov dup2, 0x69622f \\n mov for, 0x69622f2f \\n mov dup2, 0x69622f \\n mov dup2, 0x69622f \\n mov for, 0x69622f;"assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+assembly_instruction.asm:6: error: invalid combination of opcode and operands
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+assembly_instruction.asm:9: error: invalid combination of opcode and operands
+assembly_instruction.asm:10: error: invalid combination of opcode and operands
+assembly_instruction.asm:11: error: invalid combination of opcode and operands
+assembly_instruction.asm:12: error: invalid combination of opcode and operands
+"
+cmp al, ecx \\n jz found \\n inc ecx;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push 0-term \\n push daeh \\n push rsu/ on;"assembly_instruction.asm:3: error: division operator may only be applied to scalar values
+"
+xor 0xffffffff, 0xffffffff \\n xor eax, eax;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov esi, al;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push eax(socket;"assembly_instruction.asm:1: error: comma, colon, decorator or end of line expected after operand
+"
+push byte 0x68732f2f \\n push byte 0x68732f \\n push byte 0x6e69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n mov uninitialized, esp;"assembly_instruction.asm:1: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+"
+xor until, until \\n sub until, 0x68732f2f \\n sub until, 0x6e69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+assembly_instruction.asm:2: error: invalid combination of opcode and operands
+assembly_instruction.asm:3: error: invalid combination of opcode and operands
+assembly_instruction.asm:4: error: invalid combination of opcode and operands
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+assembly_instruction.asm:6: error: invalid combination of opcode and operands
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+assembly_instruction.asm:9: error: invalid combination of opcode and operands
+assembly_instruction.asm:10: error: invalid combination of opcode and operands
+assembly_instruction.asm:11: error: invalid combination of opcode and operands
+"
+push ecx \\n push cotent \\n push 'hsab' \\n push '/nib' \\n push '////';"assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+"
+inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc istruction \\n inc istruction \\n inc istruction \\n inc istruction \\n inc pf;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+assembly_instruction.asm:2: error: invalid combination of opcode and operands
+assembly_instruction.asm:3: error: invalid combination of opcode and operands
+assembly_instruction.asm:4: error: invalid combination of opcode and operands
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+assembly_instruction.asm:6: error: invalid combination of opcode and operands
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+assembly_instruction.asm:9: error: invalid combination of opcode and operands
+assembly_instruction.asm:10: error: invalid combination of opcode and operands
+assembly_instruction.asm:11: error: invalid combination of opcode and operands
+assembly_instruction.asm:12: error: invalid combination of opcode and operands
+assembly_instruction.asm:13: error: invalid combination of opcode and operands
+assembly_instruction.asm:14: error: invalid combination of opcode and operands
+assembly_instruction.asm:15: error: invalid combination of opcode and operands
+assembly_instruction.asm:16: error: invalid combination of opcode and operands
+assembly_instruction.asm:17: error: invalid combination of opcode and operands
+assembly_instruction.asm:18: error: invalid combination of opcode and operands
+"
+test efault, efault \\n jmp next_page;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov my_table, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: error: invalid combination of opcode and operands
+"
+pop that;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+sub var2, esi;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+mov ebx, edx+0x4;"assembly_instruction.asm:1: error: invalid register set size
+"
+edx: \\n dword ptr 0x68732f2f \\n dword ptr 0x68732f \\n dword ptr 0x6e69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x696;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:3: error: label or instruction expected at start of line
+assembly_instruction.asm:4: error: label or instruction expected at start of line
+assembly_instruction.asm:5: error: label or instruction expected at start of line
+assembly_instruction.asm:6: error: label or instruction expected at start of line
+assembly_instruction.asm:7: error: label or instruction expected at start of line
+assembly_instruction.asm:8: error: label or instruction expected at start of line
+assembly_instruction.asm:9: error: label or instruction expected at start of line
+assembly_instruction.asm:10: error: label or instruction expected at start of line
+assembly_instruction.asm:11: error: label or instruction expected at start of line
+assembly_instruction.asm:12: error: label or instruction expected at start of line
+"
+push 0x3 \\n pop bl;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+"
+push 63 \\n pop 63;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+"
+cmp ax, cl;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+sub 0x7f, 0x7f;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n mov ax, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+"
+mov ecx, read-write;"assembly_instruction.asm:1: error: symbol `write' not defined
+"
+loop ecx \\n xor var1, var1 \\n xor unless, unless \\n xor decrementing, decrementing;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+assembly_instruction.asm:2: error: invalid combination of opcode and operands
+assembly_instruction.asm:3: error: invalid combination of opcode and operands
+assembly_instruction.asm:4: error: invalid combination of opcode and operands
+"
+mov dword [[], 0x6374652f;"assembly_instruction.asm:1: error: expression syntax error
+"
+mul 32-bit;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n mov rcx, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+"
+push setgid \\n pop = \\n pop 0x2e;"assembly_instruction.asm:2: error: expression syntax error
+"
+cmp loc_402b13, loc_402b13 \\n je loc_402b13;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"
+push sys_connect \\n pop = \\n pop ebx;"assembly_instruction.asm:2: error: expression syntax error
+"
+mov zero_reg, [[];"assembly_instruction.asm:1: error: expression syntax error
+"
+mov esi, word [esi];"assembly_instruction.asm:1: error: mismatch in operand sizes
+"
+push byte 0x8 \\n pop 0x8;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+"
+xor eax, eax \\n mov numebr, esp;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+"
+mov mm3, \shellcode\;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+"

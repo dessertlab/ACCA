@@ -1,0 +1,8 @@
+GT_71.asm:3: error: comma, colon, decorator or end of line expected after operand
+PR_71.asm:3: error: comma, colon, decorator or end of line expected after operand
+GT_144.asm:13: error: symbol `do_inject' not defined
+PR_144.asm:13: error: symbol `while' not defined
+PR_185.asm:12: error: symbol `for' not defined
+GT_297.asm:13: error: symbol `xordecode' not defined
+PR_297.asm:13: error: symbol `xordecode' not defined
+GT_377.asm:13: error: symbol `l3' not defined

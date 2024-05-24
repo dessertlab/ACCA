@@ -1,0 +1,6 @@
+ld: warning: -m is obsolete
+ld: warning: option -m is obsolete and being ignored
+ld: file not found: i386pe
+ld: warning: -m is obsolete
+ld: warning: option -m is obsolete and being ignored
+ld: file not found: i386pe

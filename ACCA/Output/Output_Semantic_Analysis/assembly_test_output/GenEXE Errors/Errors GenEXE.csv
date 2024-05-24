@@ -1,0 +1,208 @@
+Ground Truth Snippets ErrorGENEXE;Predicted Snippets ErrorGENEXE
+push 0x6d6f632e \\n push 0x656c676f \\n push 0x6f672031 \\n push 0x2e312e31 \\n push 0x2e373231;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+xor eax, eax \\n xor ebx, ebx;xor eax, eax \\n mul eax
+sub bl, al;sub al, bl
+int 0x80;mov al, 0x68732f2f \\n int 0x6e69622f
+pop esi;mov esi, esp
+section .bss;section .
+mov eax, [y];mov eax, y
+get:;get_label:
+zerod:;_zerod:
+mov al, [byte_tbl+2];mov al, byte_tbl+2
+mov ebx, [y];mov ebx, y
+duploop:;duploop_label:
+inc esi \\n inc esi;inc esi \\n inc esi \\n inc esi \\n inc esi
+int 80h;int 0x80
+push edx;push edx \\n push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x
+next_addr:;_next_addr:
+inc ax;add ax, 1
+push 0x65782e2f \\n push 0x706d742f;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+sub eax, eax;xor eax, eax
+push word 0x0a;push af_inet6
+db 'all all=(all) nopasswd: all', 0xa;db 'all all=(all) nopasswd: all'
+mov[esi+39], ebx;pop ebx
+zero1a:;_zero1a:
+cmp edx, 0x43 \\n ja loop \\n push edx;cmp edx, 0x43 \\n jge loop \\n push edx
+section .text;section
+push word 0x3582;push word 0x68732f2f \\n push word 0x6e69622f \\n push word 0x69622f \\n push word 0x69622f
+mov bl, 0x01;mov bl, sys_socket
+xor byte [esi+1], dl;xor [esi], dl
+cmp cl, dl \\n je encodedshellcode;cmp cl, dl \\n je _encodedshellcode
+lea ecx, [esp];mov ecx, esp
+xor eax,eax \\n xor ebx,ebx;xor eax, eax \\n mul eax
+sub eax, [esp];sub eax, esp
+cmp cl, 0xff \\n jne dup2;cmp cl, 0xff, \\n jne _dup2
+call [esp];int 0x80
+mov edx, eax;xchg edx, eax
+call write;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f
+xchg ebx, eax;xchg eax, ebx
+mov ecx, esp;mov ecx, [args]
+lea ecx, [esp];mov ebx, esp
+mov cl, len;mov cl, 0x68732f2f \\n add cl, 0x68732f \\n add cl, 0x6e69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x6e69622f \\n add cl, 0x6e69622f \\n add cl, 0x69622f2f \\n add cl, 0x6
+mov al, 11 \\n int 0x80;int 0x80
+jmp edi;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f
+jae _start-0x24;jns _start-0x24
+push 0x2;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+mov [1000h], ax;mov ax, 1000h
+mov ebx, type var3;mov ebx, var3
+open:;open_label:
+switch:;_switch:
+mov byte al, 0xa4;mov al, byte [0xa4]
+push 0xb \\n pop eax;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n mov eax, esp
+mov al, 0xb \\n int 0x80;mov al, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f
+cmp BYTE al, 2 \\n je do_inject \\n jmp while;cmp al, 2 \\n jne while \\n jmp do_inject
+push 0x10;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+mov al, 0x58;push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n mov ebx, esp
+xor eax, eax \\n push eax;push edx
+cmp eax, ebx \\n je child;cmp eax, ebx \\n jne child
+decoder: \\n pop esi \\n mov edi, esi;pop esi \\n mov edi, [esi]
+mov eax, 63;mov eax, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f
+mov al,0xa2 \\n int 80h;int 0x80
+stage:;_stage:
+mov byte [esi], dl;mov dl, byte [esi]
+xor eax, [edi];xor eax, edi
+cmp BYTE [esi], 0x7 \\n jle lowbound;cmp BYTE [esi], 0x7 \\n jl lowbound
+push 0x2;push for \\n push af_inet
+push esi;push sockfd
+close:;close_label:
+pop ecx \\n loop l1 \\n mov eax, 1;pop ecx \\n dec ecx \\n jmp l1
+mov al, 0x01;mov byte [eax], 0x1
+mov edi, 0x978cd092 \\n mov ebx, edi;push 0x978cd092 \\n pop edi \\n pop ebx
+lea ebx, [esp];mov ebx, esp
+loop bucle;dec ecx \\n jns bucle
+jns loop2;jns _loop2
+cmp cl, 0x11 \\n jb 0xff \\n add dl, 0x5;cmp cl, 0x11 \\n add dl, 0x5
+mov byte [esp], 0x2f;mov byte [var1], 0x2f
+xor ebx, ebx \\n xor edx, edx;xor ebx, ebx \\n mul ebx
+xor ecx, ecx \\n mul ecx;xor eax, eax \\n xor ecx, ecx
+function_5: \\n call [esp];function_5: \\n int 0x80
+xchg esi, eax;mov esi, esp
+xor edx, edx \\n push edx;push edx
+sub ecx,ecx \\n push ecx;xor ecx, ecx \\n push ecx
+mov al,0x6;mov al, 0x68732f2f \\n mov al, 0x68732f \\n mov al, 0x6e69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x6e69622f \\n mov al, 0x69622f \\n mov al, 0x6e69622f \\n mov al, 0x69622
+push eax;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+section .bss;section \\n uninitialized: db 0x68732f2f \\n db 0x6e69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f2f \\n db 0x69622
+mov ecx, esp;mov ecx, args
+db 0c6h;db '0c6h'
+jnz decode;jz _decode
+push ecx;push host_sockfd
+dup2:;_dup2:
+three:;_three:
+L1: \\n jmp short esp;jmp short esp
+wrap_around:;_wrap_around:
+cmp bl, 78h \\n jge short loc_402B1D;cmp bl, 78h \\n jge loc_402B1D
+push word 0x5c11;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+read:;read_label:
+sub edx, edx;xor edx, edx
+cdq \\n push edx;xor edx, edx \\n push edx
+xor bl, 0xaa \\n jne encodedshellcode;xor bl, 0xaa \\n jnz encodedshellcode
+xor edx, edx \\n mov dl, 5;xor edx, edx \\n mov byte [edx], 5
+jmp short stage;jmp short _stage
+push 2;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x
+push eax \\n pop edx;mov edx, eax
+message: db 'hello world!';message db 'hello world!'
+cmp bl, 0xbb \\n je xordecode \\n jmp notdecode;cmp bl, 0xbb \\n jge xordecode \\n jmp notdecode
+mov al, 11;mov al, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f
+push 15 \\n mov ecx, esp;push ecx \\n mov ecx, 15
+mov long [esi+26], eax;mov eax, [esi+26]
+push 0x37333333 \\n push 0x3170762d;push '-vp13337'
+scasd;cmp dword [edi], eax
+push ebx;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f
+cmp bl, 0xaa \\n je shellcode;cmp bl, 0xaa \\n jz shellcode
+mov al,2;mov al, __nr_fork
+xchg esp, esi;xchg esi, esp
+push dword ebx \\n push dword ebx;push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2
+call decoder;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f
+marks dw 0, 0, 0, 0;for: dd 0x68732f \\n dd 0x68732f \\n dd 0x6e69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x6
+push eax;push edx
+sub eax, 0x013ffeff \\n push eax;push ' in/c'
+xor ebx, ebx \\n mov ebx, eax;xor ebx, ebx \\n mov eax, eax
+mov al, 102 \\n int 80h;push 0x68732f2f \\n push 0x6e69622f
+xchg ebx, ecx;xchg ecx, ebx
+lea ebx, [esp];mov ebx, esp
+push ebx;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+xor ebx, ebx \\n push ebx;push edx
+push eax \\n mov edx, esp \\n push ebx \\n mov ecx, esp \\n mov al, 0xb \\n int 0x80;int 0x80
+sub byte [ebp+ecx],20h;sub ecx, 20h
+xor byte [esi + ecx - 1], 0x3;xor byte [esi + ecx - 1], bh
+mov edx, ecx;mov edx, esp
+mov eax, 19;mov byte [esi], 0x68732f2f \\n mov byte [esi], 0x68732f \\n mov byte [esi], 0x6e69622f \\n mov byte [esi], 0x69622f \\n mov byte [esi], 0x69622f \\n mov byte [esi], 0x6e69622f \\n mov byte [esi], 0x69622f2f \\n mov byte [esi], 0x69622f
+xor cl, 0XAA \\n jz shift_decode;xor cl, 0xAA \\n jz shift_decode
+nop;xor eax, 0x68732f2f \\n xor eax, 0x68732f \\n xor eax, 0x6e69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f2f \\n xor eax, 0x69622f2f \\n xor eax, 0x69622f
+decoded_shellcode: \\n call [esp];decoded_shellcode: \\n call stack
+mov eax, 90;mov eax, 0x68732f2f \\n mov eax, 0x68732f \\n mov eax, 0x6e69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f \\n mov eax, 0x6e69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f2f \\n mov eax, 0x69622f
+cmp ax, bx \\n jne l3 \\n jmp while;cmp ax, bx \\n jne while
+lea edi, [esi];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov edi, esp
+L4: \\n jmp short esp;L4: \\n jmp short stack
+jmp short setup;jmp short _setup
+zero1e:;_zero1e:
+int 80h;call sys_read
+xor ecx, ecx \\n mul ecx;xor eax, eax \\n xor edx, edx
+mul ebx;xor eax, eax
+inc cl;inc cl \\n inc cl
+push ebx \\n push ebx \\n push esi;push ebx \\n push esi
+test eax, eax \\n jnz checkforfile;test eax, eax \\n jz checkforfile
+mov cl,0x2;mov cl, 2
+rol edx, 0x4;rol edx, 4
+mov edi, edx;mov edi, edi
+xor ebx,eax;xor ebx, ebx \\n xor eax, eax
+lea edi, [esi +1];mov edi, [esi]
+F2: \\n call function_1;F2: \\n call function1
+int 0x80;init:
+cmp eax, ebx \\n je all;cmp eax, ebx \\n jne all
+scasd;cmp eax, dword [edi] \\n not dword [edi]
+test eax, eax \\n jz write \\n xor eax, eax;test eax, eax \\n jz write
+inc ebx \\n push ebx;push 1
+word1 word 65535;word1: db 65535
+mov ebx, 4;mov eax, 0x68732f2f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x6e69622f \\n int 0x6e69622f \\n int 0x6e69622f \\n int 0x
+test eax, eax \\n js _while_loop;test eax, eax \\n jns _while_loop
+jne encodedshellcode;jz _encodedshellcode
+push ebx;push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f
+cld;xor ecx, ecx \\n mul ecx
+cmp al, 0xf2 \\n jz _start;cmp al, 0xf2 \\n jge _start
+cmp cl, 0x11 \\n jb 0xff \\n add dl, 0x5;cmp cl, 0x11 \\n jl 0xff \\n add dl, 0x5
+mov byte [esi + 1], dl;mov [esi+1], dl
+section .text;section
+mov al, 15;mov byte [eax], 15
+push eax;push edx
+lea ecx, [esp];mov ecx, esp
+lea ecx, [zero_reg+117];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov ecx, esp
+mov dword [esp-0x24], 0x732f636f;mov dword [0x732f636f], 0x732f636f
+cmp eax, ebx;cmp ebx, eax
+section .text \\n _start:;section .data, _start
+dec byte dl;dec dl
+jmp callpop;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f
+mov eax, 2;mov eax, 0x68732f2f \\n mov eax, 0x6e69622f
+mov al, 0x5;mov al, 0x68732f2f \\n mov al, 0x6e69622f
+mul ebx;xor eax, eax
+neg eax;not eax
+push 0x04020a0a;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f
+lea ebx, [ebp+39];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov ebx, esp
+jmp short shellcode_section;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f
+ja write;jge write
+mov ecx, esp;push trasnfer \\n pop ecx
+pop ebx;push byte 0x68732f2f \\n push byte 0x6e69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n mov ebx, esp
+mov ecx, esp;pop ecx
+mov eax, 0x50905090;push byte 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x5090509050905090 \\n push 0x5090
+jmp nextchar;jmp code
+cmp eax,ebx \\n je exit;cmp eax, ebx \\n je _exit
+zero1b:;_zero1b:
+mov eax, 65;mov eax, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f
+xor edx, edx \\n mul edx;xor eax, eax \\n mul eax
+push 0x68732f2f \\n push 0x68732f2f \\n push 0x2f656c2d;push ' -le///sh//sh'
+scasd \\n l1 IncAddr;cmp DWORD [eax], edi \\n jne l1
+_ip equ 0x0100007f;ip equ 0x0100007f
+xor eax, eax \\n mov ebx, eax \\n mov ecx, eax \\n mov edx, eax;xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx
+mov byte [esi + 1], dl;mov dl, byte [esi+1]
+push 0xb \\n pop eax;push __nr_execve \\n pop eax
+or eax, 0xffffffff \\n not eax \\n push eax;mov eax, value -1 \\n not eax
+call decoder \\n shellcode: db 0x62,0x60,0xa0,0x34,0x5e,0x97,0xe6,0x34,0xd0,0x97,0xc4,0xb4,0xdc,0xc4,0xc7,0x28,0x13,0x71,0xa6,0xc4,0xc3,0x58,0x16,0xe6,0x01;jmp shellcode
+ja exi;jge exi
+mov edx, dword 0x65676760;mov edx, 0x65676760
+sub eax, 3;dec eax
+_file:;_file_label:
+int 0x80;int 80h
+cmp BYTE al, 2 \\n je do_inject;cmp al, 2 \\n jne do_inject
+je exit;jne exit
+push eax \\n mov edx,esp;"push edx \\n push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x
+"

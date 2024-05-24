@@ -1,0 +1,16 @@
+section .data
+
+myExitAddr db 0x56
+
+section .text
+
+global my_start
+
+my_start:
+
+        push eax 
+        mov edx, esp 
+        push ebx 
+        mov ecx, esp 
+        mov al, 0xb 
+        jmp myExitAddr

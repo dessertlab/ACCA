@@ -1,0 +1,185 @@
+Predicted Snippets;NASM Output Symbol Not Defined
+mov eax, y;"assembly_instruction.asm:1: error: symbol `y' not defined
+"
+mov al, byte_tbl+2;"assembly_instruction.asm:1: error: symbol `byte_tbl' not defined
+"
+mov ebx, y;"assembly_instruction.asm:1: error: symbol `y' not defined
+"
+push af_inet6;"assembly_instruction.asm:1: error: symbol `af_inet6' not defined
+"
+cmp edx, 0x43 \\n jge loop \\n push edx;"assembly_instruction.asm:2: error: symbol `loop' not defined
+"
+mov bl, sys_socket;"assembly_instruction.asm:1: error: symbol `sys_socket' not defined
+"
+cmp cl, dl \\n je _encodedshellcode;"assembly_instruction.asm:2: error: symbol `_encodedshellcode' not defined
+"
+cmp cl, 0xff, \\n jne _dup2;"assembly_instruction.asm:2: error: symbol `_dup2' not defined
+"
+jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+"
+mov ecx, [args];"assembly_instruction.asm:1: error: symbol `args' not defined
+"
+jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+"
+jns _start-0x24;"assembly_instruction.asm:1: error: symbol `_start' not defined
+"
+mov ebx, var3;"assembly_instruction.asm:1: error: symbol `var3' not defined
+"
+cmp al, 2 \\n jne while \\n jmp do_inject;"assembly_instruction.asm:2: error: symbol `while' not defined
+assembly_instruction.asm:3: error: symbol `do_inject' not defined
+"
+cmp eax, ebx \\n jne child;"assembly_instruction.asm:2: error: symbol `child' not defined
+"
+cmp BYTE [esi], 0x7 \\n jl lowbound;"assembly_instruction.asm:2: error: symbol `lowbound' not defined
+"
+push for \\n push af_inet;"assembly_instruction.asm:1: error: symbol `for' not defined
+assembly_instruction.asm:2: error: symbol `af_inet' not defined
+"
+push sockfd;"assembly_instruction.asm:1: error: symbol `sockfd' not defined
+"
+pop ecx \\n dec ecx \\n jmp l1;"assembly_instruction.asm:3: error: symbol `l1' not defined
+"
+dec ecx \\n jns bucle;"assembly_instruction.asm:2: error: symbol `bucle' not defined
+"
+jns _loop2;"assembly_instruction.asm:1: error: symbol `_loop2' not defined
+"
+mov byte [var1], 0x2f;"assembly_instruction.asm:1: error: symbol `var1' not defined
+"
+mov ecx, args;"assembly_instruction.asm:1: error: symbol `args' not defined
+"
+jz _decode;"assembly_instruction.asm:1: error: symbol `_decode' not defined
+"
+push host_sockfd;"assembly_instruction.asm:1: error: symbol `host_sockfd' not defined
+"
+cmp bl, 78h \\n jge loc_402B1D;"assembly_instruction.asm:2: error: symbol `loc_402B1D' not defined
+"
+xor bl, 0xaa \\n jnz encodedshellcode;"assembly_instruction.asm:2: error: symbol `encodedshellcode' not defined
+"
+jmp short _stage;"assembly_instruction.asm:1: error: symbol `_stage' not defined
+"
+cmp bl, 0xbb \\n jge xordecode \\n jmp notdecode;"assembly_instruction.asm:2: error: symbol `xordecode' not defined
+assembly_instruction.asm:3: error: symbol `notdecode' not defined
+"
+cmp bl, 0xaa \\n jz shellcode;"assembly_instruction.asm:2: error: symbol `shellcode' not defined
+"
+mov al, __nr_fork;"assembly_instruction.asm:1: error: symbol `__nr_fork' not defined
+"
+jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+"
+xor cl, 0xAA \\n jz shift_decode;"assembly_instruction.asm:2: error: symbol `shift_decode' not defined
+"
+decoded_shellcode: \\n call stack;"assembly_instruction.asm:2: error: symbol `stack' not defined
+"
+cmp ax, bx \\n jne while;"assembly_instruction.asm:2: error: symbol `while' not defined
+"
+L4: \\n jmp short stack;"assembly_instruction.asm:2: error: symbol `stack' not defined
+"
+jmp short _setup;"assembly_instruction.asm:1: error: symbol `_setup' not defined
+"
+call sys_read;"assembly_instruction.asm:1: error: symbol `sys_read' not defined
+"
+test eax, eax \\n jz checkforfile;"assembly_instruction.asm:2: error: symbol `checkforfile' not defined
+"
+F2: \\n call function1;"assembly_instruction.asm:2: error: symbol `function1' not defined
+"
+cmp eax, ebx \\n jne all;"assembly_instruction.asm:2: error: symbol `all' not defined
+"
+test eax, eax \\n jz write;"assembly_instruction.asm:2: error: symbol `write' not defined
+"
+test eax, eax \\n jns _while_loop;"assembly_instruction.asm:2: error: symbol `_while_loop' not defined
+"
+jz _encodedshellcode;"assembly_instruction.asm:1: error: symbol `_encodedshellcode' not defined
+"
+cmp al, 0xf2 \\n jge _start;"assembly_instruction.asm:2: error: symbol `_start' not defined
+"
+jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+"
+jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+"
+jge write;"assembly_instruction.asm:1: error: symbol `write' not defined
+"
+push trasnfer \\n pop ecx;"assembly_instruction.asm:1: error: symbol `trasnfer' not defined
+"
+jmp code;"assembly_instruction.asm:1: error: symbol `code' not defined
+"
+cmp eax, ebx \\n je _exit;"assembly_instruction.asm:2: error: symbol `_exit' not defined
+"
+cmp DWORD [eax], edi \\n jne l1;"assembly_instruction.asm:2: error: symbol `l1' not defined
+"
+push __nr_execve \\n pop eax;"assembly_instruction.asm:1: error: symbol `__nr_execve' not defined
+"
+mov eax, value -1 \\n not eax;"assembly_instruction.asm:1: error: symbol `value' not defined
+"
+jmp shellcode;"assembly_instruction.asm:1: error: symbol `shellcode' not defined
+"
+jge exi;"assembly_instruction.asm:1: error: symbol `exi' not defined
+"
+cmp al, 2 \\n jne do_inject;"assembly_instruction.asm:2: error: symbol `do_inject' not defined
+"
+jne exit;"assembly_instruction.asm:1: error: symbol `exit' not defined
+"

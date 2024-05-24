@@ -1,0 +1,1255 @@
+Ground Truth Snippets;Predicted Snippets;NASM Output;Score Syntax
+mov ax, [esi];mov ax, [esi];Matched with ground truth;1
+cmp ecx, 0h;cmp ecx, 0h;Matched with ground truth;1
+push 0x6d6f632e \\n push 0x656c676f \\n push 0x6f672031 \\n push 0x2e312e31 \\n push 0x2e373231;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+sub ecx, 0x1525152a;sub ecx, 0x1525152a;Matched with ground truth;1
+inc cx;inc cx;Matched with ground truth;1
+sys_execve equ 0x0b;0x0b equ 0x0b;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+xor eax, eax \\n xor ebx, ebx;xor eax, eax \\n mul eax;No compiler errors;1
+sub bl, al;sub al, bl;No compiler errors;1
+int 0x80;mov al, 0x68732f2f \\n int 0x6e69622f;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+sub bl, 3;sub bl, 3;Matched with ground truth;1
+pop esi;mov esi, esp;No compiler errors;1
+push 0x69622f2f;push 0x69622f2f;Matched with ground truth;1
+section .bss;section .;No compiler errors;1
+xor esi, esi;xor esi, esi;Matched with ground truth;1
+mov eax, [y];mov eax, y;"assembly_instruction.asm:1: error: symbol `y' not defined
+";1
+push edi;push edi;Matched with ground truth;1
+cmp dword [eax], ebx;cmp dword [eax], ebx;Matched with ground truth;1
+get:;get_label:;No compiler errors;1
+call_decoder:;call_decoder:;Matched with ground truth;1
+decrypt:;decrypt:;Matched with ground truth;1
+loop main_push;loop main_push;Matched with ground truth;1
+push eax;push eax;Matched with ground truth;1
+zerod:;_zerod:;No compiler errors;1
+mov eax, esp;mov eax, esp;Matched with ground truth;1
+mov al, [byte_tbl+2];mov al, byte_tbl+2;"assembly_instruction.asm:1: error: symbol `byte_tbl' not defined
+";1
+mov esi, esp;mov esi, esp;Matched with ground truth;1
+mov ebx, [y];mov ebx, y;"assembly_instruction.asm:1: error: symbol `y' not defined
+";1
+duploop:;duploop_label:;No compiler errors;1
+chmod_call equ 15;=15:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+shl ebx, 8;shl ebx, 8;Matched with ground truth;1
+xor ebx, ebx;ebx:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+push byte 0x02;push byte 0x02;Matched with ground truth;1
+shr dl, 4;shr dl, 4;Matched with ground truth;1
+push byte my_label \\n pop eax;push byte my_label \\n pop eax;Matched with ground truth;1
+push dword 0x74652f2f \\n mov ebx, esp;push dword 0x74652f2f \\n mov ebx, esp;Matched with ground truth;1
+inc esi \\n inc esi;inc esi \\n inc esi \\n inc esi \\n inc esi;No compiler errors;1
+xor edx, edx \\n xor esi, esi;xor edx, edx \\n xor esi, esi;Matched with ground truth;1
+xor ah, ah;xor ah, ah;Matched with ground truth;1
+jmp loop;jmp loop;Matched with ground truth;1
+int 80h;int 0x80;No compiler errors;1
+F2: \\n not bl \\n inc bl;bl: not bl \\n inc bl \\n inc bl;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+mov [edi], al;mov al, edi;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+push ecx;push ecx;Matched with ground truth;1
+push edx;push edx \\n push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x;"assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+encodedshellcode: db 0xd6,0x47,0xb7,0x9f,0xd8,0xd8,0x94,0x9f,0x9f,0xd8,0xa5,0x9e,0x99,0x7e,0x24,0xb7,0x7e,0x25,0xb4,0x7e,0x26,0x57,0xfc,0x3a,0x87;encodedshellcode: db 0xd6,0x47,0xb7,0x9f,0xd8,0xd8,0x94,0x9f,0x9f,0xd8,0xa5,0x9e,0x99,0x7e,0x24,0xb7,0x7e,0x25,0xb4,0x7e,0x26,0x57,0xfc,0x3a,0x87;Matched with ground truth;1
+next_addr:;_next_addr:;No compiler errors;1
+push word 100;push word 100;Matched with ground truth;1
+mov esi, eax;mov esi, eax;Matched with ground truth;1
+push 0x68732f6e \\n push 0x69622f2f \\n mov ebx, esp;push bin/sh \\n push ebx;"assembly_instruction.asm:1: error: symbol `bin' not defined
+";0
+push eax \\n push edx;push eax \\n push edx;Matched with ground truth;1
+inc ax;add ax, 1;No compiler errors;1
+push 0x65782e2f \\n push 0x706d742f;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push word 0x462d;push word 0x462d;Matched with ground truth;1
+mov ecx, esp;mov ecx, esp;Matched with ground truth;1
+lea ecx, [eax];push [\\n pop eax \\n pop ecx;"assembly_instruction.asm:1: error: expression syntax error
+";0
+sub eax, eax;xor eax, eax;No compiler errors;1
+xor eax, esi;xor eax, esi;Matched with ground truth;1
+jns loopinghere;jns loopinghere;Matched with ground truth;1
+inc edx;inc edx;Matched with ground truth;1
+mov bl,0x4;mov bl, 0x4;Matched with ground truth;1
+duploop:;duploop:;Matched with ground truth;1
+pop esi;pop esi;Matched with ground truth;1
+push word 0x0a;push af_inet6;"assembly_instruction.asm:1: error: symbol `af_inet6' not defined
+";1
+db 'all all=(all) nopasswd: all', 0xa;db 'all all=(all) nopasswd: all';No compiler errors;1
+jmp short path;jmp short path;Matched with ground truth;1
+mov[esi+39], ebx;pop ebx;No compiler errors;1
+div ebx;div ebx;Matched with ground truth;1
+push ecx;push ecx;Matched with ground truth;1
+add edi, edi;add edi, edi;Matched with ground truth;1
+zero1a:;_zero1a:;No compiler errors;1
+cmp edx, 0x43 \\n ja loop \\n push edx;cmp edx, 0x43 \\n jge loop \\n push edx;"assembly_instruction.asm:2: error: symbol `loop' not defined
+";1
+add byte [esi], 0x10;add byte [esi], 0x10;Matched with ground truth;1
+section .text;section;"assembly_instruction.asm:1: warning: multi-line macro `section' exists, but not taking 0 parameters [-w+macro-params-multi]
+assembly_instruction.asm:1: warning: label alone on a line without a colon might be in error [-w+label-orphan]
+";1
+mov ecx, m_src3;mov ecx, m_src3;Matched with ground truth;1
+push word 0x3582;push word 0x68732f2f \\n push word 0x6e69622f \\n push word 0x69622f \\n push word 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+";1
+mov byte [esi+14],al;mov byte [esi+14], al;Matched with ground truth;1
+next_addr:;next_addr:;Matched with ground truth;1
+mov bl, 0x01;mov bl, sys_socket;"assembly_instruction.asm:1: error: symbol `sys_socket' not defined
+";1
+pop esi;pop esi;Matched with ground truth;1
+dec ecx \\n jns loop;dec ecx \\n jns loop;Matched with ground truth;1
+xor byte [esi+1], dl;xor [esi], dl;No compiler errors;1
+cmp cl, dl \\n je encodedshellcode;cmp cl, dl \\n je _encodedshellcode;"assembly_instruction.asm:2: error: symbol `_encodedshellcode' not defined
+";1
+encoded_shellcode: db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80;0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80 db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+lea ecx, [esp];mov ecx, esp;No compiler errors;1
+xor eax,eax \\n xor ebx,ebx;xor eax, eax \\n mul eax;No compiler errors;1
+mov edx, 2;mov edx, 2;Matched with ground truth;1
+mov esi, esp;mov esi, esp;Matched with ground truth;1
+mov ebx, esp;mov ebx, esp;Matched with ground truth;1
+sub eax, [esp];sub eax, esp;No compiler errors;1
+mov cx, 0x301;mov cx, 0x301;Matched with ground truth;1
+hello: db 'hello world!',10;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov linefeed, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: error: symbol `linefeed' not defined
+";0
+cmp cl, 0xff \\n jne dup2;cmp cl, 0xff, \\n jne _dup2;"assembly_instruction.asm:2: error: symbol `_dup2' not defined
+";1
+inc esi \\n inc esi;inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc;"assembly_instruction.asm:26: error: invalid combination of opcode and operands
+";0
+lea ebx, [edx+0x4];lea ebx, [edx+0x4];Matched with ground truth;1
+shr dl, 4;shr dl, 4;Matched with ground truth;1
+xor eax, 0x6e696230;xor eax, 0x6e696230;Matched with ground truth;1
+call [esp];int 0x80;No compiler errors;1
+mov edi, 0xaaaa9090;mov edi, 0xaaaa9090;Matched with ground truth;1
+jb next;inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0 \\n inc var0;"assembly_instruction.asm:1: error: symbol `var0' not defined
+assembly_instruction.asm:2: error: symbol `var0' not defined
+assembly_instruction.asm:3: error: symbol `var0' not defined
+assembly_instruction.asm:4: error: symbol `var0' not defined
+assembly_instruction.asm:5: error: symbol `var0' not defined
+assembly_instruction.asm:6: error: symbol `var0' not defined
+assembly_instruction.asm:7: error: symbol `var0' not defined
+assembly_instruction.asm:8: error: symbol `var0' not defined
+assembly_instruction.asm:9: error: symbol `var0' not defined
+assembly_instruction.asm:10: error: symbol `var0' not defined
+assembly_instruction.asm:11: error: symbol `var0' not defined
+assembly_instruction.asm:12: error: symbol `var0' not defined
+assembly_instruction.asm:13: error: symbol `var0' not defined
+assembly_instruction.asm:14: error: symbol `var0' not defined
+assembly_instruction.asm:15: error: symbol `var0' not defined
+assembly_instruction.asm:16: error: symbol `var0' not defined
+assembly_instruction.asm:17: error: symbol `var0' not defined
+";0
+filecontents: resb 128;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov filecontents, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: error: symbol `filecontents' not defined
+";0
+mov al, 23;mov al, 23;Matched with ground truth;1
+mov edx, eax;xchg edx, eax;No compiler errors;1
+cmp al, cl \\n jne short decode \\n jmp shellcode;cmp al, cl \\n jne short decode \\n jmp shellcode;Matched with ground truth;1
+push dword eax;push dword eax;Matched with ground truth;1
+mov bl, 5;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov bl, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+";0
+pop ecx;pop we;"assembly_instruction.asm:1: error: symbol `we' not defined
+";0
+push eax \\n push edx \\n push ecx \\n push ebx \\n mov edi, esp;push eax \\n push edx \\n push ecx \\n push ebx \\n mov edi, esp;Matched with ground truth;1
+mov ecx, esp;mov ecx, esp;Matched with ground truth;1
+call write;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+";1
+push 10 \\n mov eax, esp;push 10 \\n mov eax, esp;Matched with ground truth;1
+xchg ebx, eax;xchg eax, ebx;No compiler errors;1
+mov ecx, esp;mov ecx, [args];"assembly_instruction.asm:1: error: symbol `args' not defined
+";1
+mov ecx, esp;mov ecx, esp;Matched with ground truth;1
+mov esi, esp;mov esi, esp;Matched with ground truth;1
+lea ecx, [esp];mov ebx, esp;No compiler errors;1
+lea edi, [ebx];lea edi, [ebx];Matched with ground truth;1
+xor dl, 0xbb;xor dl, 0xbb;Matched with ground truth;1
+mov cl, len;mov cl, 0x68732f2f \\n add cl, 0x68732f \\n add cl, 0x6e69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x69622f \\n add cl, 0x6e69622f \\n add cl, 0x6e69622f \\n add cl, 0x69622f2f \\n add cl, 0x6;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+mov cl, 0x2;mov cl, 0x2;Matched with ground truth;1
+mov eax, msg3;mov eax, msg3;Matched with ground truth;1
+push 0x78;push 0x78;Matched with ground truth;1
+mov al, 11 \\n int 0x80;int 0x80;No compiler errors;1
+sub bx, dx;sub bx, dx;Matched with ground truth;1
+push 0x61702f2f \\n push 0x6374652f \\n mov eax, esp;push 0x61702f2f \\n push 0x6374652f \\n mov eax, esp;Matched with ground truth;1
+mov edi, hexstr;mov edi, hexstr;Matched with ground truth;1
+jmp edi;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+";1
+variablename3: resd 1;push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n push dword for \\n;"assembly_instruction.asm:18: error: comma, colon, decorator or end of line expected after operand
+";0
+jae _start-0x24;jns _start-0x24;"assembly_instruction.asm:1: error: symbol `_start' not defined
+";1
+push 0x2;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push eax \\n push 0x68732f2f \\n push 0x6e69622f \\n push ebx, esp \\n mov edx, eax \\n mov al, 0xb \\n int 0x80;push temrinated \\n push '/bin//sh' \\n push ebx \\n push edx \\n push temrinated \\n push '/bin//sh' \\n push ebx \\n mov edx, esp;"assembly_instruction.asm:1: error: symbol `temrinated' not defined
+assembly_instruction.asm:2: warning: character constant too long [-w+other]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: symbol `temrinated' not defined
+assembly_instruction.asm:6: warning: character constant too long [-w+other]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+";0
+xor ax, bx \\n jz call_decoded;xor ax, bx \\n jz call decoded;"assembly_instruction.asm:2: error: comma, colon, decorator or end of line expected after operand
+";0
+mov edx, 0x1234567;mov edx, 0x1234567;Matched with ground truth;1
+mov [1000h], ax;mov ax, 1000h;No compiler errors;1
+pop esi;pop esi;Matched with ground truth;1
+call_egghunter:;call_egghunter:;Matched with ground truth;1
+mov ebx, type var3;mov ebx, var3;"assembly_instruction.asm:1: error: symbol `var3' not defined
+";1
+open:;open_label:;No compiler errors;1
+mov ecx, esp;mov ecx, esp;Matched with ground truth;1
+switch:;_switch:;No compiler errors;1
+mov byte al, 0xa4;mov al, byte [0xa4];No compiler errors;1
+2:;numeric 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;"assembly_instruction.asm:1: error: parser: instruction expected
+";0
+push 0xb \\n pop eax;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n mov eax, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+";1
+mov al, 0xb \\n int 0x80;mov al, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+cmp BYTE al, 2 \\n je do_inject \\n jmp while;cmp al, 2 \\n jne while \\n jmp do_inject;"assembly_instruction.asm:2: error: symbol `while' not defined
+assembly_instruction.asm:3: error: symbol `do_inject' not defined
+";1
+pop ebx;pop ebx;Matched with ground truth;1
+push 0x10;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push byte 49;push byte 49;Matched with ground truth;1
+mov al, 0x58;push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n push ebx \\n mov ebx, esp;No compiler errors;1
+xor eax, eax \\n push eax;push edx;No compiler errors;1
+cmp eax, ebx \\n je child;cmp eax, ebx \\n jne child;"assembly_instruction.asm:2: error: symbol `child' not defined
+";1
+mov ax, 8h;mov ax, 8h;Matched with ground truth;1
+push 0x2f2f2f2f \\n mov ecx, esp;push 0x2f2f2f2f \\n mov ecx, esp;Matched with ground truth;1
+"call shellcode \\n message db ""/bin/sh""";push of /bin/sh \\n push eip \\n mov shellcode_label, esp;"assembly_instruction.asm:1: error: symbol `of' not defined
+assembly_instruction.asm:2: error: symbol `eip' not defined
+assembly_instruction.asm:3: error: symbol `shellcode_label' not defined
+";0
+cmp bl, 0x1f;cmp bl, 0x1f;Matched with ground truth;1
+decoder: \\n pop esi \\n mov edi, esi;pop esi \\n mov edi, [esi];No compiler errors;1
+push 0x68736162;push 0x68736162;Matched with ground truth;1
+mov eax, 63;mov eax, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;"assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+mov al,0xa2 \\n int 80h;int 0x80;No compiler errors;1
+push eax \\n mov ebx, esp;push eax \\n mov ebx, esp;Matched with ground truth;1
+xchg byte [esi+1], al;inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc esi \\n inc;"assembly_instruction.asm:26: error: invalid combination of opcode and operands
+";0
+jmp short enc;jmp short enc;Matched with ground truth;1
+mov al,0x8 \\n mov cl,077o;reate: \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n push 0x77 \\n mov 0x77, 0x;"assembly_instruction.asm:21: error: invalid combination of opcode and operands
+";0
+stage:;_stage:;No compiler errors;1
+mov dl, 0x45;mov dl, 0x45;Matched with ground truth;1
+inc esi \\n jmp L1;inc L2 \\n jmp L2;"assembly_instruction.asm:1: error: symbol `L2' not defined
+assembly_instruction.asm:2: error: symbol `L2' not defined
+";0
+movq mm0, qword [edi];mov mm0, \xor_value\;"assembly_instruction.asm:1: error: symbol `xor_value' not defined
+";0
+mov byte [esi], dl;mov dl, byte [esi];No compiler errors;1
+inc edi;inc edi;Matched with ground truth;1
+xor eax, [edi];xor eax, edi;No compiler errors;1
+mov al, 0x17;xor 0x17, 0x17;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+mov [esi+35], esi;mov esi+35, esi;"assembly_instruction.asm:1: error: invalid register set size
+";0
+dec ecx;dec ecx;Matched with ground truth;1
+push word 0x3436;push word 0x3436;Matched with ground truth;1
+call jmp_search;call jmp_search;Matched with ground truth;1
+write_syscall equ 4;write_syscall equ 4;Matched with ground truth;1
+cmp BYTE [esi], 0x7 \\n jle lowbound;cmp BYTE [esi], 0x7 \\n jl lowbound;"assembly_instruction.asm:2: error: symbol `lowbound' not defined
+";1
+add eax, 2;add eax, 2;Matched with ground truth;1
+push byte 4 \\n pop eax;push byte 4 \\n pop eax;Matched with ground truth;1
+push 0x64687373 \\n mov edi, esp;push 0x64687373 \\n mov edi, esp;Matched with ground truth;1
+jmp short four;jmp short four;Matched with ground truth;1
+xchg ebx, eax;xchg ebx, eax;Matched with ground truth;1
+buffersize: dw 1024;buffersize word 0x68732f \\n 0x68732f \\n 0x6e69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0x69622f \\n 0;"assembly_instruction.asm:1: error: parser: instruction expected
+assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:3: error: label or instruction expected at start of line
+assembly_instruction.asm:4: error: label or instruction expected at start of line
+assembly_instruction.asm:5: error: label or instruction expected at start of line
+assembly_instruction.asm:6: error: label or instruction expected at start of line
+assembly_instruction.asm:7: error: label or instruction expected at start of line
+assembly_instruction.asm:8: error: label or instruction expected at start of line
+assembly_instruction.asm:9: error: label or instruction expected at start of line
+assembly_instruction.asm:10: error: label or instruction expected at start of line
+assembly_instruction.asm:11: error: label or instruction expected at start of line
+assembly_instruction.asm:12: error: label or instruction expected at start of line
+assembly_instruction.asm:13: error: label or instruction expected at start of line
+assembly_instruction.asm:14: error: label or instruction expected at start of line
+assembly_instruction.asm:15: error: label or instruction expected at start of line
+assembly_instruction.asm:16: error: label or instruction expected at start of line
+";0
+pop esi \\n mov bx, [esi];pop esi \\n mov bx, [esi];Matched with ground truth;1
+push eax \\n push 0x636e2f6e \\n push 0x69622f2f;push 0-term \\n push cn/n \\n push ib//;"assembly_instruction.asm:3: error: expression syntax error
+";0
+push 0x2;push for \\n push af_inet;"assembly_instruction.asm:1: error: symbol `for' not defined
+assembly_instruction.asm:2: error: symbol `af_inet' not defined
+";1
+mov ecx, eax;mov ecx, eax;Matched with ground truth;1
+push word 0x8223;push word 0x8223;Matched with ground truth;1
+push 0x1ff9090 \\n pop ecx;push 0x1ff9090 \\n push ecx \\n push 0x10 \\n push 0x1ff9090 \\n push ecx \\n push 0x10 \\n mov 0x10, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: error: invalid combination of opcode and operands
+";0
+cmp edx, 42;cmp edx, 42;Matched with ground truth;1
+push esi;push sockfd;"assembly_instruction.asm:1: error: symbol `sockfd' not defined
+";1
+close:;close_label:;No compiler errors;1
+pop ecx \\n loop l1 \\n mov eax, 1;pop ecx \\n dec ecx \\n jmp l1;"assembly_instruction.asm:3: error: symbol `l1' not defined
+";1
+matrix qw 12*10;for: \\n 12*10: \\n quad-bytes:;"assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:3: error: parser: instruction expected
+";0
+F5: \\n jmp L1;F5: \\n jmp L1;Matched with ground truth;1
+mov bl, 0xe;mov bl, 0xe;Matched with ground truth;1
+mov al, 0x01;mov byte [eax], 0x1;No compiler errors;1
+R1: \\n inc esi \\n inc esi;inc R1 \\n inc esi;"assembly_instruction.asm:1: error: symbol `R1' not defined
+";0
+xor byte [esi], 0x2c;xor 0x2c, esi;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+mov edi, 0x978cd092 \\n mov ebx, edi;push 0x978cd092 \\n pop edi \\n pop ebx;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+";1
+mov ebx, esp;mov ebx, ptr;"assembly_instruction.asm:1: warning: `ptr' is not a NASM keyword [-w+ptr]
+assembly_instruction.asm:1: error: symbol `ptr' not defined
+";0
+lea ebx, [esp];mov ebx, esp;No compiler errors;1
+push 0x74756f2f;push 0x74756f2f;Matched with ground truth;1
+loop bucle;dec ecx \\n jns bucle;"assembly_instruction.asm:2: error: symbol `bucle' not defined
+";1
+push 0x3a303a3a;push 0x3a303a3a;Matched with ground truth;1
+jns loop2;jns _loop2;"assembly_instruction.asm:1: error: symbol `_loop2' not defined
+";1
+push 0x30;push 0x30;Matched with ground truth;1
+S1: db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73;0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73 db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+F1: \\n pop esi;F1: \\n pop esi;Matched with ground truth;1
+push 0x68732f2f \\n push 0x6e69622f \\n mov eax, esp;mov eax, ASCII /bin/sh;"assembly_instruction.asm:1: error: symbol `ASCII' not defined
+";0
+mov cx, 2001Q;mov cx, 2001Q;Matched with ground truth;1
+jne no_error;jne no_error;Matched with ground truth;1
+cmp cl, 0x11 \\n jb 0xff \\n add dl, 0x5;cmp cl, 0x11 \\n add dl, 0x5;No compiler errors;1
+xor eax, 0x58494741;xor eax, 0x58494741;Matched with ground truth;1
+L3: \\n jmp edi;L3: \\n jmp edi;Matched with ground truth;1
+push ebx;push ebx;Matched with ground truth;1
+xor ecx, ecx \\n mov cl, shellcode_length;xor shellcode_length, shellcode_length \\n mov byte [shellcode_length], shellcode_length;"assembly_instruction.asm:1: error: symbol `shellcode_length' not defined
+assembly_instruction.asm:2: error: symbol `shellcode_length' not defined
+";0
+mov al, 0x42;mov al, 0x42;Matched with ground truth;1
+mov byte [esp], 0x2f;mov byte [var1], 0x2f;"assembly_instruction.asm:1: error: symbol `var1' not defined
+";1
+xor ebx, ebx \\n xor edx, edx;xor ebx, ebx \\n mul ebx;No compiler errors;1
+mov dword [esp-4], esi;mov dword [[], esi;"assembly_instruction.asm:1: error: expression syntax error
+";0
+mov [esi], al;mov esi, al;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+xor ecx, ecx \\n mul ecx;xor eax, eax \\n xor ecx, ecx;No compiler errors;1
+jmp short decode_pr;decode_pr: \\n inc decode_pr;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+";0
+function_5: \\n call [esp];function_5: \\n int 0x80;No compiler errors;1
+mov cl, 100;mov cl, 100;Matched with ground truth;1
+xchg esi, eax;mov esi, esp;No compiler errors;1
+mov al, 0x66;mov al, 0x66;Matched with ground truth;1
+xor edx, edx \\n push edx;push edx;No compiler errors;1
+loop l4 \\n mov edx, esp;loop l4 \\n mov edx, esp;Matched with ground truth;1
+sub ecx,ecx \\n push ecx;xor ecx, ecx \\n push ecx;No compiler errors;1
+shellcode: db 0xc6,0x02,0x80,0x01,0x81,0x03,0xd1,0x01,0xbe,0x02,0x5f,0x01,0x98,0x03,0x1c,0x06,0x60,0x08,0xf6,0x04,0xc5,0x01,0x92,0x04,0x30,0x07,0x64,0x06,0x3a,0x04,0x58,0x08,0x4f,0x03,0x59,0x05,0xd2,0x06,0x81,0x08,0x1a,0x04,0x5f,0x07,0x03,0x08,0xd8,0x04,0x0c,0x04, 0xbb, 0xbb;shellcode: db 0xc6,0x02,0x80,0x01,0x81,0x03,0xd1,0x01,0xbe,0x02,0x5f,0x01,0x98,0x03,0x1c,0x06,0x60,0x08,0xf6,0x04,0xc5,0x01,0x92,0x04,0x30,0x07,0x64,0x06,0x3a,0x04,0x58,0x08,0x4f,0x03,0x59,0x05,0xd2,0x06,0x81,0x08,0x1a,0x04,0x5f,0x07,0x03,0x08,0xd8,0x04,0x0c,0x04, 0xbb, 0xbb;Matched with ground truth;1
+mov edx, ecx;mov edx, ecx;Matched with ground truth;1
+test eax, eax \\n jz short loc_402B13;test eax, eax \\n jz short loc_402B13;Matched with ground truth;1
+add eax, 0x10;add eax, 0x10;Matched with ground truth;1
+mov ecx, ebp;mov ecx, ebp;Matched with ground truth;1
+push 0x1;push socket_type \\n push = \\n push sock_stream;"assembly_instruction.asm:2: error: expression syntax error
+";0
+add ax, [di + 20];add ax, di + 20;"assembly_instruction.asm:1: error: invalid register set size
+";0
+mov al,0x6;mov al, 0x68732f2f \\n mov al, 0x68732f \\n mov al, 0x6e69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x69622f \\n mov al, 0x6e69622f \\n mov al, 0x69622f \\n mov al, 0x6e69622f \\n mov al, 0x69622;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+dec esp;dec esp;Matched with ground truth;1
+push eax;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+";1
+sub eax,20000h;sub eax, 20000h;Matched with ground truth;1
+section .bss;section \\n uninitialized: db 0x68732f2f \\n db 0x6e69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f \\n db 0x69622f2f \\n db 0x69622;"assembly_instruction.asm:1: warning: multi-line macro `section' exists, but not taking 0 parameters [-w+macro-params-multi]
+assembly_instruction.asm:1: warning: label alone on a line without a colon might be in error [-w+label-orphan]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+pop cx;pop cx;Matched with ground truth;1
+push 0x6475732f \\n push 0x6374652f \\n mov eax, esp;push 0x6475732f \\n push 0x6374652f \\n mov eax, esp;Matched with ground truth;1
+mov ecx, esp;mov ecx, args;"assembly_instruction.asm:1: error: symbol `args' not defined
+";1
+cmp al, 0xf2;cmp al, 0xf2;Matched with ground truth;1
+db 0c6h;db '0c6h';No compiler errors;1
+cmp eax, eax \\n jne 0x8;cmp eax, eax \\n jne 0x8;Matched with ground truth;1
+xor ax, 0x3041;xor ax, 0x3041;Matched with ground truth;1
+jnz decode;jz _decode;"assembly_instruction.asm:1: error: symbol `_decode' not defined
+";1
+pop ecx \\n mov edi, ecx;pop ecx \\n pop stak \\n mov edi, esp;"assembly_instruction.asm:2: error: symbol `stak' not defined
+";0
+add eax, ebx;add eax, ebx;Matched with ground truth;1
+push 0x2f2f2f2f \\n mov esi, esp;push 0x2f2f2f2f \\n mov esi, esp;Matched with ground truth;1
+mov cl, al;backup al;"assembly_instruction.asm:1: error: parser: instruction expected
+";0
+push ecx;push host_sockfd;"assembly_instruction.asm:1: error: symbol `host_sockfd' not defined
+";1
+find_address:;find_address:;Matched with ground truth;1
+shl edx, 9;shl edx, 9;Matched with ground truth;1
+dup2:;_dup2:;No compiler errors;1
+three:;_three:;No compiler errors;1
+L1: \\n jmp short esp;jmp short esp;"assembly_instruction.asm:1: warning: invalid register size specification ignored [-w+regsize]
+";1
+push byte 10;push byte 10;Matched with ground truth;1
+wrap_around:;_wrap_around:;No compiler errors;1
+cmp bl, 78h \\n jge short loc_402B1D;cmp bl, 78h \\n jge loc_402B1D;"assembly_instruction.asm:2: error: symbol `loc_402B1D' not defined
+";1
+_start: \\n jmp short enc;_start: \\n jmp short enc;Matched with ground truth;1
+push word 0x5c11;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+read:;read_label:;No compiler errors;1
+mov bl, byte [edi];mov bl, byte [edi];Matched with ground truth;1
+db '/bin/sh';db '/bin/sh';Matched with ground truth;1
+priv_setgid:;_ priv_setgid:;"assembly_instruction.asm:1: error: parser: instruction expected
+";0
+sub edx, edx;xor edx, edx;No compiler errors;1
+mov bl, 4;mov: \\n =: \\n var2: \\n sys_listen: \\n bl:;"assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:5: error: label or instruction expected at start of line
+";0
+mov ecx, esp;mov ecx, ptr;"assembly_instruction.asm:1: warning: `ptr' is not a NASM keyword [-w+ptr]
+assembly_instruction.asm:1: error: symbol `ptr' not defined
+";0
+mov ebx, esp;ebx:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+cdq \\n push edx;xor edx, edx \\n push edx;No compiler errors;1
+xor bl, 0xaa \\n jne encodedshellcode;xor bl, 0xaa \\n jnz encodedshellcode;"assembly_instruction.asm:2: error: symbol `encodedshellcode' not defined
+";1
+xor edx, edx;xor edx, edx;Matched with ground truth;1
+push 0x6374652f \\n mov esi, esp;push 0x6374652f \\n mov esi, esp;Matched with ground truth;1
+push byte 0x2 \\n pop eax;push byte 0x2 \\n pop eax;Matched with ground truth;1
+sub ecx, ecx;sub ecx, ecx;Matched with ground truth;1
+xor edx, edx \\n mov dl, 5;xor edx, edx \\n mov byte [edx], 5;No compiler errors;1
+jmp short stage;jmp short _stage;"assembly_instruction.asm:1: error: symbol `_stage' not defined
+";1
+sub ax, 1564;sub ax, 1564;Matched with ground truth;1
+shell_ret:;shell_ret:;Matched with ground truth;1
+mov cx,0x3b30 \\n push cx;push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n push 15152 \\n;"assembly_instruction.asm:21: error: comma, colon, decorator or end of line expected after operand
+";0
+cmp byte [buff], 7ah;cmp byte [buff], 7ah;Matched with ground truth;1
+push 0x67513231;push 0x67513231;Matched with ground truth;1
+push 2;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push 0x10;push 0x10;Matched with ground truth;1
+push eax \\n pop edx;mov edx, eax;No compiler errors;1
+message: db 'hello world!';message db 'hello world!';No compiler errors;1
+mov eax, 3;mov sys_read, esp;"assembly_instruction.asm:1: error: symbol `sys_read' not defined
+";0
+db 'egg mark';db 'egg mark';Matched with ground truth;1
+xor edx, edx;xor edx, edx;Matched with ground truth;1
+jmp short push_cmd;jmp short push_cmd;Matched with ground truth;1
+decode:;decode:;Matched with ground truth;1
+xor cl, 0x32;xor cl, 0x32;Matched with ground truth;1
+cmp bl, 0xbb \\n je xordecode \\n jmp notdecode;cmp bl, 0xbb \\n jge xordecode \\n jmp notdecode;"assembly_instruction.asm:2: error: symbol `xordecode' not defined
+assembly_instruction.asm:3: error: symbol `notdecode' not defined
+";1
+mov ebx, [ebp-4];push [\\n pop ebp-4 \\n pop] \\n pop ebx;"assembly_instruction.asm:1: error: expression syntax error
+assembly_instruction.asm:3: error: expression syntax error
+";0
+push byte +0x68;push byte +0x68;Matched with ground truth;1
+mov cx, 0700;mov cx, 0700;Matched with ground truth;1
+cdq;edx:;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+";0
+mov al, 0xcd;mov al, 0xcd;Matched with ground truth;1
+xor cl, 0xaa;xor cl, 0xaa;Matched with ground truth;1
+cmp al, 0xf2;cmp al, 0xf2;Matched with ground truth;1
+mov al, 11;mov al, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+push 15 \\n mov ecx, esp;push ecx \\n mov ecx, 15;No compiler errors;1
+xchg eax, ebx;xchg eax, ebx;Matched with ground truth;1
+push byte 16 \\n pop eax;push byte 16 \\n pop eax;Matched with ground truth;1
+mov long [esi+26], eax;mov eax, [esi+26];No compiler errors;1
+mov dword [esp-0x4],eax \\n mov dword [esp-0x8],0x65636170 \\n mov dword [esp-0xc],0x735f6176 \\n mov dword [esp-0x10],0x5f657a69 \\n mov dword [esp-0x14],0x6d6f646e \\n mov dword [esp-0x18],0x61722f6c \\n mov dword [esp-0x1c],0x656e7265 \\n mov dword [esp-0x20],0x6b2f7379 \\n mov dword [esp-0x24],0x732f636f \\n mov dword [esp-0x28],0x72702f2f \\n sub esp,0x28 \\n mov ebx,esp;push proc/sys/kernel/randomize_va_space \\n push eax \\n mov ebx, esp;"assembly_instruction.asm:1: error: symbol `proc' not defined
+";0
+mov bl, 0x2;mov bl, 0x2;Matched with ground truth;1
+push 0x37333333 \\n push 0x3170762d;push '-vp13337';"assembly_instruction.asm:1: warning: character constant too long [-w+other]
+assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push 0x2f2f2f2f;push 0x2f2f2f2f;Matched with ground truth;1
+lea esi, [esi +4];push [\\n pop esi +4;"assembly_instruction.asm:1: error: expression syntax error
+";0
+scasd;cmp dword [edi], eax;No compiler errors;1
+mov ecx,esp;mov ecx, esp;Matched with ground truth;1
+mov eax, [ebx+8];mov eax, byte [ebx+8];"assembly_instruction.asm:1: error: mismatch in operand sizes
+";0
+bound esp,qword ptr [ebx+0x41];bound ebx, 0x68732f2f, 0x6e69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f, 0x69622f;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+push ebx;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+";1
+int 3;mov breakpoint, esp;"assembly_instruction.asm:1: error: symbol `breakpoint' not defined
+";0
+xor ecx, ecx \\n xor eax, eax \\n xor edx, edx;xor ecx, ecx \\n xor eax, eax \\n xor edx, edx;Matched with ground truth;1
+push 0x10 \\n push ecx \\n push edx;push sizeof(struct;"assembly_instruction.asm:1: error: comma, colon, decorator or end of line expected after operand
+";0
+cmp bl, 0xaa \\n je shellcode;cmp bl, 0xaa \\n jz shellcode;"assembly_instruction.asm:2: error: symbol `shellcode' not defined
+";1
+push edx \\n mov ecx, esp;push edx \\n mov ecx, esp;Matched with ground truth;1
+mov bl, 0xff;pop bl;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+xor eax, eax \\n xor edx, edx;xor eax, eax \\n xor edx, edx;Matched with ground truth;1
+mov al,2;mov al, __nr_fork;"assembly_instruction.asm:1: error: symbol `__nr_fork' not defined
+";1
+cmp ecx, ebp;cmp ecx, ebp;Matched with ground truth;1
+xchg esp, esi;xchg esi, esp;No compiler errors;1
+push dword ebx \\n push dword ebx;push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2 \\n push dword 0x2;No compiler errors;1
+push 0x6d726574;push 0x6d726574;Matched with ground truth;1
+mov al, 0x3f;push sys \\n push for \\n push dup2 \\n mov al, 0x68732f2f \\n mov dup2, 0x6e69622f \\n mov for, 0x69622f \\n mov dup2, 0x69622f \\n mov dup2, 0x69622f \\n mov for, 0x69622f2f \\n mov dup2, 0x69622f \\n mov dup2, 0x69622f \\n mov for, 0x69622f;"assembly_instruction.asm:1: error: symbol `sys' not defined
+assembly_instruction.asm:2: error: symbol `for' not defined
+assembly_instruction.asm:3: error: symbol `dup2' not defined
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: symbol `dup2' not defined
+assembly_instruction.asm:6: error: symbol `for' not defined
+assembly_instruction.asm:7: error: symbol `dup2' not defined
+assembly_instruction.asm:8: error: symbol `dup2' not defined
+assembly_instruction.asm:9: error: symbol `for' not defined
+assembly_instruction.asm:10: error: symbol `dup2' not defined
+assembly_instruction.asm:11: error: symbol `dup2' not defined
+assembly_instruction.asm:12: error: symbol `for' not defined
+";0
+call decoder;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+";1
+test al, al \\n jz found \\n inc ecx;cmp al, ecx \\n jz found \\n inc ecx;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+assembly_instruction.asm:2: error: symbol `found' not defined
+";0
+mov bl, 5;mov bl, 5;Matched with ground truth;1
+int 0x80;int 0x80;Matched with ground truth;1
+marks dw 0, 0, 0, 0;for: dd 0x68732f \\n dd 0x68732f \\n dd 0x6e69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x69622f \\n dd 0x6;No compiler errors;1
+push eax;push edx;No compiler errors;1
+sub eax, 0x013ffeff \\n push eax;push ' in/c';"assembly_instruction.asm:1: warning: character constant too long [-w+other]
+assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+";1
+xor ebx, ebx \\n mov ebx, eax;xor ebx, ebx \\n mov eax, eax;No compiler errors;1
+pop esi;pop esi;Matched with ground truth;1
+mov al, 102 \\n int 80h;push 0x68732f2f \\n push 0x6e69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push ebx;push ebx;Matched with ground truth;1
+xchg ebx, ecx;xchg ecx, ebx;No compiler errors;1
+mov ecx,eax \\n push ecx;mov ecx, eax \\n push ecx;Matched with ground truth;1
+add ax, bx;add ax, bx;Matched with ground truth;1
+decode:;decode:;Matched with ground truth;1
+push byte 0x77;push byte 0x77;Matched with ground truth;1
+lea ebx, [esp];mov ebx, esp;No compiler errors;1
+push eax \\n push dword 0x64616568 \\n push dword 0x2f6e6962 \\n push dword 0x2f2f2f2f \\n push dword 0x7273752f;push 0-term \\n push daeh \\n push rsu/ on;"assembly_instruction.asm:1: error: symbol `term' not defined
+assembly_instruction.asm:2: error: symbol `daeh' not defined
+assembly_instruction.asm:3: error: symbol `rsu' not defined
+";0
+push ebx;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+xor eax, 0xffffffff;xor 0xffffffff, 0xffffffff \\n xor eax, eax;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+add al,0x3b;add al, 0x3b;Matched with ground truth;1
+mov [esi], al;mov esi, al;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+mov eax, 1;mov eax, 1;Matched with ground truth;1
+xor ebx, ebx \\n push ebx;push edx;No compiler errors;1
+push eax \\n mov edx, esp \\n push ebx \\n mov ecx, esp \\n mov al, 0xb \\n int 0x80;int 0x80;No compiler errors;1
+entrypoint:;entrypoint:;Matched with ground truth;1
+mov dl, 0x1c;mov dl, 0x1c;Matched with ground truth;1
+sub byte [ebp+ecx],20h;sub ecx, 20h;No compiler errors;1
+push ecx;push ecx;Matched with ground truth;1
+mov ebx, esp;mov ebx, esp;Matched with ground truth;1
+mov edi, 0x3734b117;mov edi, 0x3734b117;Matched with ground truth;1
+xor byte [esi + ecx - 1], 0x3;xor byte [esi + ecx - 1], bh;No compiler errors;1
+sub byte [esi], 13;sub byte [esi], 13;Matched with ground truth;1
+push eax;push eax(socket;"assembly_instruction.asm:1: error: comma, colon, decorator or end of line expected after operand
+";0
+mov edx, ecx;mov edx, esp;No compiler errors;1
+mov [ebx+8], ebx;mov [ebx + 8], ebx;Matched with ground truth;1
+push 0x2 \\n pop ecx;push 0x2 \\n pop ecx;Matched with ground truth;1
+lea edx, [esi+0x10];lea edx, [esi+0x10];Matched with ground truth;1
+mov eax, 19;mov byte [esi], 0x68732f2f \\n mov byte [esi], 0x68732f \\n mov byte [esi], 0x6e69622f \\n mov byte [esi], 0x69622f \\n mov byte [esi], 0x69622f \\n mov byte [esi], 0x6e69622f \\n mov byte [esi], 0x69622f2f \\n mov byte [esi], 0x69622f;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+arr1 resb 400;push byte 0x68732f2f \\n push byte 0x68732f \\n push byte 0x6e69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n mov uninitialized, esp;"assembly_instruction.asm:1: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: error: symbol `uninitialized' not defined
+";0
+xor cl, 0XAA \\n jz shift_decode;xor cl, 0xAA \\n jz shift_decode;"assembly_instruction.asm:2: error: symbol `shift_decode' not defined
+";1
+nop;xor eax, 0x68732f2f \\n xor eax, 0x68732f \\n xor eax, 0x6e69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f \\n xor eax, 0x69622f2f \\n xor eax, 0x69622f2f \\n xor eax, 0x69622f;No compiler errors;1
+decoded_shellcode: \\n call [esp];decoded_shellcode: \\n call stack;"assembly_instruction.asm:2: error: symbol `stack' not defined
+";1
+mov eax, 90;mov eax, 0x68732f2f \\n mov eax, 0x68732f \\n mov eax, 0x6e69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f \\n mov eax, 0x6e69622f \\n mov eax, 0x69622f \\n mov eax, 0x69622f2f \\n mov eax, 0x69622f;No compiler errors;1
+cmp ax, bx \\n jne l3 \\n jmp while;cmp ax, bx \\n jne while;"assembly_instruction.asm:2: error: symbol `while' not defined
+";1
+format:;format:;Matched with ground truth;1
+mul ebx;mul ebx;Matched with ground truth;1
+lea edi, [esi];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov edi, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push edx;push edx;Matched with ground truth;1
+L4: \\n jmp short esp;L4: \\n jmp short stack;"assembly_instruction.asm:2: error: symbol `stack' not defined
+";1
+push dword 0x8140a8c0;push dword 0x8140a8c0;Matched with ground truth;1
+mov esi, 10;mov esi, 10;Matched with ground truth;1
+jmp short setup;jmp short _setup;"assembly_instruction.asm:1: error: symbol `_setup' not defined
+";1
+push 0x6e69622f \\n push 0x7273752f \\n mov ebx, esp;push 0x6e69622f \\n push 0x7273752f \\n mov ebx, esp;Matched with ground truth;1
+hlt;xor until, until \\n sub until, 0x68732f2f \\n sub until, 0x6e69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x69622f \\n xor until, 0x;"assembly_instruction.asm:1: error: symbol `until' not defined
+assembly_instruction.asm:2: error: symbol `until' not defined
+assembly_instruction.asm:3: error: symbol `until' not defined
+assembly_instruction.asm:4: error: symbol `until' not defined
+assembly_instruction.asm:5: error: symbol `until' not defined
+assembly_instruction.asm:6: error: symbol `until' not defined
+assembly_instruction.asm:7: error: symbol `until' not defined
+assembly_instruction.asm:8: error: symbol `until' not defined
+assembly_instruction.asm:9: error: symbol `until' not defined
+assembly_instruction.asm:10: error: symbol `until' not defined
+assembly_instruction.asm:11: error: symbol `until' not defined
+";0
+mov eax, edx;mov eax, edx;Matched with ground truth;1
+call _myfunc;call _myfunc;Matched with ground truth;1
+sub byte [esi], 0xd;sub byte [esi], 0xd;Matched with ground truth;1
+push edx;push edx;Matched with ground truth;1
+cmp ecx, 5;cmp ecx, 5;Matched with ground truth;1
+jns decode_pr;jns decode_pr;Matched with ground truth;1
+zero1e:;_zero1e:;No compiler errors;1
+int 80h;call sys_read;"assembly_instruction.asm:1: error: symbol `sys_read' not defined
+";1
+push ecx \\n push 0x68736162 \\n push 0x2f6e6962 \\n push 0x2f2f2f2f;push ecx \\n push cotent \\n push 'hsab' \\n push '/nib' \\n push '////';"assembly_instruction.asm:2: error: symbol `cotent' not defined
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+";0
+"call _appendfile \\n msg2 db ""passwd"", 0x00";inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc _appendfile \\n inc istruction \\n inc istruction \\n inc istruction \\n inc istruction \\n inc pf;"assembly_instruction.asm:1: error: symbol `_appendfile' not defined
+assembly_instruction.asm:2: error: symbol `_appendfile' not defined
+assembly_instruction.asm:3: error: symbol `_appendfile' not defined
+assembly_instruction.asm:4: error: symbol `_appendfile' not defined
+assembly_instruction.asm:5: error: symbol `_appendfile' not defined
+assembly_instruction.asm:6: error: symbol `_appendfile' not defined
+assembly_instruction.asm:7: error: symbol `_appendfile' not defined
+assembly_instruction.asm:8: error: symbol `_appendfile' not defined
+assembly_instruction.asm:9: error: symbol `_appendfile' not defined
+assembly_instruction.asm:10: error: symbol `_appendfile' not defined
+assembly_instruction.asm:11: error: symbol `_appendfile' not defined
+assembly_instruction.asm:12: error: symbol `_appendfile' not defined
+assembly_instruction.asm:13: error: symbol `_appendfile' not defined
+assembly_instruction.asm:14: error: symbol `istruction' not defined
+assembly_instruction.asm:15: error: symbol `istruction' not defined
+assembly_instruction.asm:16: error: symbol `istruction' not defined
+assembly_instruction.asm:17: error: symbol `istruction' not defined
+assembly_instruction.asm:18: error: symbol `pf' not defined
+";0
+xor ecx, ecx \\n mul ecx;xor eax, eax \\n xor edx, edx;No compiler errors;1
+D2: \\n not byte [esi];D2: \\n not byte [esi];Matched with ground truth;1
+mul ebx;xor eax, eax;No compiler errors;1
+_write:;_write:;Matched with ground truth;1
+inc cl;inc cl \\n inc cl;No compiler errors;1
+mov esi, 0x353ffc3b;mov esi, 0x353ffc3b;Matched with ground truth;1
+mov ecx, edx;mov ecx, edx;Matched with ground truth;1
+inc ebx;inc ebx;Matched with ground truth;1
+push 0x78;push 0x78;Matched with ground truth;1
+mov ecx,esp;mov ecx, esp;Matched with ground truth;1
+xor ah, ah;xor ah, ah;Matched with ground truth;1
+_load_data:;_load_data:;Matched with ground truth;1
+push ebx \\n push ebx \\n push esi;push ebx \\n push esi;No compiler errors;1
+test eax, eax \\n jnz checkforfile;test eax, eax \\n jz checkforfile;"assembly_instruction.asm:2: error: symbol `checkforfile' not defined
+";1
+push edx;push edx;Matched with ground truth;1
+mov cl,0x2;mov cl, 2;No compiler errors;1
+rol edx, 0x4;rol edx, 4;No compiler errors;1
+mov edi, ecx;mov edi, ecx;Matched with ground truth;1
+mov edi, edx;mov edi, edi;No compiler errors;1
+xor ebx,eax;xor ebx, ebx \\n xor eax, eax;No compiler errors;1
+push byte 67 \\n pop eax;push byte 67 \\n pop eax;Matched with ground truth;1
+mov esi, eax;mov esi, eax;Matched with ground truth;1
+push ebx;push ebx;Matched with ground truth;1
+mov dl, 0x02;mov dl, 0x02;Matched with ground truth;1
+lea edi, [esi +1];mov edi, [esi];No compiler errors;1
+sub ebx, 0x2e2aa163;sub ebx, 0x2e2aa163;Matched with ground truth;1
+xor bx, bx;xor bx, bx;Matched with ground truth;1
+F2: \\n call function_1;F2: \\n call function1;"assembly_instruction.asm:2: error: symbol `function1' not defined
+";1
+xor ecx, ecx \\n mul ecx;xor ecx, ecx \\n mul ecx;Matched with ground truth;1
+cmp al, 0xf2 \\n jz next_page;test efault, efault \\n jmp next_page;"assembly_instruction.asm:1: error: symbol `efault' not defined
+assembly_instruction.asm:2: error: symbol `next_page' not defined
+";0
+int 0x80;init:;No compiler errors;1
+div edx;div edx;Matched with ground truth;1
+mov eax, [x];mov eax, [x];Matched with ground truth;1
+cmp eax, ebx \\n je all;cmp eax, ebx \\n jne all;"assembly_instruction.asm:2: error: symbol `all' not defined
+";1
+my_table times 10 dw 0;push 0x68732f2f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov my_table, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: error: symbol `my_table' not defined
+";0
+push 0x706d742f;push 0x706d742f;Matched with ground truth;1
+mov ax, 1;mov ax, 1;Matched with ground truth;1
+mov al, 5;mov al, 5;Matched with ground truth;1
+scasd;cmp eax, dword [edi] \\n not dword [edi];No compiler errors;1
+ret;pop that;"assembly_instruction.asm:1: error: symbol `that' not defined
+";0
+mov al, dl;mov al, dl;Matched with ground truth;1
+sub [var2], esi;sub var2, esi;"assembly_instruction.asm:1: error: symbol `var2' not defined
+";0
+sub ecx, 23;sub ecx, 23;Matched with ground truth;1
+push edi \\n mov eax, esp;push edi \\n mov eax, esp;Matched with ground truth;1
+test eax, eax \\n jz write \\n xor eax, eax;test eax, eax \\n jz write;"assembly_instruction.asm:2: error: symbol `write' not defined
+";1
+lea ebx, [edx+0x4];mov ebx, edx+0x4;"assembly_instruction.asm:1: error: invalid register set size
+";0
+cmp [ebp+var_a], 0;cmp [ebp+var_a], 0;Matched with ground truth;1
+inc ebx \\n push ebx;push 1;No compiler errors;1
+word1 word 65535;word1: db 65535;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+sub cx, cx;sub cx, cx;Matched with ground truth;1
+mov ebx, 4;mov eax, 0x68732f2f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x6e69622f \\n int 0x6e69622f \\n int 0x6e69622f \\n int 0x;"assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+incpage:;incpage:;Matched with ground truth;1
+push word 0x632d \\n mov edi, esp;push word 0x632d \\n mov edi, esp;Matched with ground truth;1
+push ecx;push ecx;Matched with ground truth;1
+test eax, eax \\n js _while_loop;test eax, eax \\n jns _while_loop;"assembly_instruction.asm:2: error: symbol `_while_loop' not defined
+";1
+mov ecx,esp;mov ecx, esp;Matched with ground truth;1
+cmp dword ptr [eax],edx \\n jne loop;edx: \\n dword ptr 0x68732f2f \\n dword ptr 0x68732f \\n dword ptr 0x6e69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x69622f \\n dword ptr 0x696;"assembly_instruction.asm:1: error: label or instruction expected at start of line
+assembly_instruction.asm:2: error: label or instruction expected at start of line
+assembly_instruction.asm:3: error: label or instruction expected at start of line
+assembly_instruction.asm:4: error: label or instruction expected at start of line
+assembly_instruction.asm:5: error: label or instruction expected at start of line
+assembly_instruction.asm:6: error: label or instruction expected at start of line
+assembly_instruction.asm:7: error: label or instruction expected at start of line
+assembly_instruction.asm:8: error: label or instruction expected at start of line
+assembly_instruction.asm:9: error: label or instruction expected at start of line
+assembly_instruction.asm:10: error: label or instruction expected at start of line
+assembly_instruction.asm:11: error: label or instruction expected at start of line
+assembly_instruction.asm:12: error: label or instruction expected at start of line
+";0
+jne encodedshellcode;jz _encodedshellcode;"assembly_instruction.asm:1: error: symbol `_encodedshellcode' not defined
+";1
+me:;me:;Matched with ground truth;1
+push ebx;push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+";1
+cld;xor ecx, ecx \\n mul ecx;No compiler errors;1
+sub eax, ebx;sub eax, ebx;Matched with ground truth;1
+mov bl,0x3;push 0x3 \\n pop bl;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+";0
+cmp al, 0xf2 \\n jz _start;cmp al, 0xf2 \\n jge _start;"assembly_instruction.asm:2: error: symbol `_start' not defined
+";1
+lea ecx, [esi + 8];lea ecx, [esi+8];Matched with ground truth;1
+xor ebx, ebx;xor ebx, ebx;Matched with ground truth;1
+mov ax, 1666;mov ax, 1666;Matched with ground truth;1
+mov ebx, esp;mov ebx, esp;Matched with ground truth;1
+push dword 0x61722f6c;push dword 0x61722f6c;Matched with ground truth;1
+cmp cl, 0x11 \\n jb 0xff \\n add dl, 0x5;cmp cl, 0x11 \\n jl 0xff \\n add dl, 0x5;No compiler errors;1
+loop l4 \\n mov edx, esp;loop l4 \\n mov edx, esp;Matched with ground truth;1
+mov cl, 4;mov cl, 4;Matched with ground truth;1
+loop decode \\n jmp Shellcode;loop decode \\n jmp Shellcode;Matched with ground truth;1
+xchg eax, ebx;xchg eax, ebx;Matched with ground truth;1
+cmp byte [esi], 0xD \\n jl wrap_around;cmp byte [esi], 0xD \\n jl wrap_around;Matched with ground truth;1
+mov byte [esi + 1], dl;mov [esi+1], dl;No compiler errors;1
+mov al, 0x3f;push 63 \\n pop 63;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+";0
+push 0xdebf;push 0xdebf;Matched with ground truth;1
+section .text;section;"assembly_instruction.asm:1: warning: multi-line macro `section' exists, but not taking 0 parameters [-w+macro-params-multi]
+assembly_instruction.asm:1: warning: label alone on a line without a colon might be in error [-w+label-orphan]
+";1
+mov al, 15;mov byte [eax], 15;No compiler errors;1
+push eax;push edx;No compiler errors;1
+push dword 0x2f2f2f2f \\n push dword 0x7273752f \\n mov ebx, esp;push dword 0x2f2f2f2f \\n push dword 0x7273752f \\n mov ebx, esp;Matched with ground truth;1
+lea ecx, [esp];mov ecx, esp;No compiler errors;1
+push 0x69622f3a;push 0x69622f3a;Matched with ground truth;1
+push eax;push eax;Matched with ground truth;1
+mov eax, msg1;mov eax, msg1;Matched with ground truth;1
+lea ecx, [zero_reg+117];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov ecx, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+";1
+mov dword [esp-0x24], 0x732f636f;mov dword [0x732f636f], 0x732f636f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push 0x6873732f \\n push 0x6374652f \\n mov edx, esp;push 0x6873732f \\n push 0x6374652f \\n mov edx, esp;Matched with ground truth;1
+inc esi;inc esi;Matched with ground truth;1
+mov esi, eax;mov esi, eax;Matched with ground truth;1
+shr ax, cl;cmp ax, cl;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+cmp eax, ebx;cmp ebx, eax;No compiler errors;1
+section .text \\n _start:;section .data, _start;"assembly_instruction.asm:1: warning: ignoring unknown section attribute: ""_start"" [-w+other]
+";1
+dec byte dl;dec dl;No compiler errors;1
+jmp callpop;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+";1
+mov eax, 2;mov eax, 0x68732f2f \\n mov eax, 0x6e69622f;No compiler errors;1
+sub esp, 0x7f;sub 0x7f, 0x7f;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+";0
+push 0x706d742f;push 0x706d742f;Matched with ground truth;1
+xor byte [esi], 0x97;xor byte [esi], 0x97;Matched with ground truth;1
+mov al, 0x5;mov al, 0x68732f2f \\n mov al, 0x6e69622f;"assembly_instruction.asm:1: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+inc ebx;inc ebx;Matched with ground truth;1
+mul ebx;xor eax, eax;No compiler errors;1
+mov ax, 0x16b;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n mov ax, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+";0
+xor eax,eax \\n xor ebx,ebx;xor eax, eax \\n xor ebx, ebx;Matched with ground truth;1
+push 0x706d742f;push 0x706d742f;Matched with ground truth;1
+push word 0x1b6 \\n pop ecx;mov ecx, read-write;"assembly_instruction.asm:1: error: symbol `read' not defined
+";0
+loop fill;loop ecx \\n xor var1, var1 \\n xor unless, unless \\n xor decrementing, decrementing;"assembly_instruction.asm:1: error: invalid combination of opcode and operands
+assembly_instruction.asm:2: error: symbol `var1' not defined
+assembly_instruction.asm:3: error: symbol `unless' not defined
+assembly_instruction.asm:4: error: symbol `decrementing' not defined
+";0
+push dword eax;push dword eax;Matched with ground truth;1
+shellcode:;shellcode:;Matched with ground truth;1
+neg eax;not eax;No compiler errors;1
+mov dword [esp-12], 0x6374652f;mov dword [[], 0x6374652f;"assembly_instruction.asm:1: error: expression syntax error
+";0
+push 0x7461632f \\n push 0x6e69622f \\n mov edx, esp;push 0x7461632f \\n push 0x6e69622f \\n mov edx, esp;Matched with ground truth;1
+push 0x04020a0a;push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
+mul [var];mul 32-bit;"assembly_instruction.asm:1: error: symbol `bit' not defined
+";0
+lea ebx, [ebp+39];push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n mov ebx, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+";1
+mov rcx, 0x68732f2f6e69622f;push 0x68732f2f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n mov rcx, esp;"assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: error: invalid combination of opcode and operands
+";0
+mov cx, 0x401;mov cx, 0x401;Matched with ground truth;1
+cmp bh, al;cmp bh, al;Matched with ground truth;1
+push 0x7665642f;push 0x7665642f;Matched with ground truth;1
+jmp short shellcode_section;jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero68732f \\n jmp zero6e69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f \\n jmp zero69622f;"assembly_instruction.asm:1: error: symbol `zero68732f' not defined
+assembly_instruction.asm:2: error: symbol `zero68732f' not defined
+assembly_instruction.asm:3: error: symbol `zero68732f' not defined
+assembly_instruction.asm:4: error: symbol `zero68732f' not defined
+assembly_instruction.asm:5: error: symbol `zero6e69622f' not defined
+assembly_instruction.asm:6: error: symbol `zero69622f' not defined
+assembly_instruction.asm:7: error: symbol `zero69622f' not defined
+assembly_instruction.asm:8: error: symbol `zero69622f' not defined
+assembly_instruction.asm:9: error: symbol `zero69622f' not defined
+assembly_instruction.asm:10: error: symbol `zero69622f' not defined
+assembly_instruction.asm:11: error: symbol `zero69622f' not defined
+assembly_instruction.asm:12: error: symbol `zero69622f' not defined
+assembly_instruction.asm:13: error: symbol `zero69622f' not defined
+assembly_instruction.asm:14: error: symbol `zero69622f' not defined
+";1
+ja write;jge write;"assembly_instruction.asm:1: error: symbol `write' not defined
+";1
+mov ecx, 4294948047;mov ecx, 4294948047;Matched with ground truth;1
+mov al, 0x2e;push setgid \\n pop = \\n pop 0x2e;"assembly_instruction.asm:2: error: expression syntax error
+";0
+mov ecx, esp;push trasnfer \\n pop ecx;"assembly_instruction.asm:1: error: symbol `trasnfer' not defined
+";1
+jmp short stage;jmp short stage;Matched with ground truth;1
+je short loc_402b13;cmp loc_402b13, loc_402b13 \\n je loc_402b13;"assembly_instruction.asm:1: error: symbol `loc_402b13' not defined
+assembly_instruction.asm:2: error: symbol `loc_402b13' not defined
+";0
+pop ebx;push byte 0x68732f2f \\n push byte 0x6e69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n push byte 0x69622f \\n mov ebx, esp;"assembly_instruction.asm:1: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: signed byte value exceeds bounds [-w+number-overflow]
+";1
+mov ecx, esp;pop ecx;No compiler errors;1
+mov eax, 0x50905090;push byte 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x50905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x509050905090 \\n push 0x5090509050905090 \\n push 0x5090;"assembly_instruction.asm:1: warning: signed byte value exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+";1
+push byte 0x1 \\n pop edx;push byte 0x1 \\n pop edx;Matched with ground truth;1
+shellcode: db 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23;shellcode: db 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23;Matched with ground truth;1
+pop ecx;pop ecx;Matched with ground truth;1
+jmp nextchar;jmp code;"assembly_instruction.asm:1: error: symbol `code' not defined
+";1
+jz download;jz download;Matched with ground truth;1
+push 0x3 \\n pop ebx;push sys_connect \\n pop = \\n pop ebx;"assembly_instruction.asm:2: error: expression syntax error
+";0
+mov esi, esp;mov esi, esp;Matched with ground truth;1
+cmp eax,ebx \\n je exit;cmp eax, ebx \\n je _exit;"assembly_instruction.asm:2: error: symbol `_exit' not defined
+";1
+push dword eax;push dword eax;Matched with ground truth;1
+add byte [esi], 0x02;add byte [esi], 0x02;Matched with ground truth;1
+mov [ebp+20], zero_reg;mov zero_reg, [[];"assembly_instruction.asm:1: error: expression syntax error
+";0
+push edx \\n push esi \\n push edi \\n push ebx \\n mov ecx, esp;push edx \\n push esi \\n push edi \\n push ebx \\n mov ecx, esp;Matched with ground truth;1
+pop eax;pop eax;Matched with ground truth;1
+zero1b:;_zero1b:;No compiler errors;1
+mov eax, 65;mov eax, 0x68732f2f \\n int 0x68732f \\n int 0x6e69622f \\n int 0x69622f \\n int 0x69622f \\n int 0x69622f;"assembly_instruction.asm:2: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: byte data exceeds bounds [-w+number-overflow]
+";1
+jmp short formatting;jmp short formatting;Matched with ground truth;1
+xchg ebx,eax;xchg ebx, eax;Matched with ground truth;1
+jmp edi;jmp edi;Matched with ground truth;1
+xor edx, edx \\n mul edx;xor eax, eax \\n mul eax;No compiler errors;1
+xor ax, 0x539;xor ax, 0x539;Matched with ground truth;1
+sub eax, 8;sub eax, 8;Matched with ground truth;1
+push 0x61622f6e;push 0x61622f6e;Matched with ground truth;1
+push dx;push dx;Matched with ground truth;1
+mov ecx,esp;mov ecx, esp;Matched with ground truth;1
+notdecode:;notdecode:;Matched with ground truth;1
+jmp read;jmp read;Matched with ground truth;1
+push word 0x776f;push word 0x776f;Matched with ground truth;1
+push 0x68732f2f \\n push 0x68732f2f \\n push 0x2f656c2d;push ' -le///sh//sh';"assembly_instruction.asm:1: warning: character constant too long [-w+other]
+assembly_instruction.asm:1: warning: word data exceeds bounds [-w+number-overflow]
+";1
+child:;child:;Matched with ground truth;1
+mov edx, response;mov edx, response;Matched with ground truth;1
+scasd \\n l1 IncAddr;cmp DWORD [eax], edi \\n jne l1;"assembly_instruction.asm:2: error: symbol `l1' not defined
+";1
+mov esi, 0x353ffc3b;mov esi, 0x353ffc3b;Matched with ground truth;1
+_ip equ 0x0100007f;ip equ 0x0100007f;No compiler errors;1
+lea edx, [ebx+12];lea edx, [ebx+12];Matched with ground truth;1
+pop esi;mov esi, word [esi];"assembly_instruction.asm:1: error: mismatch in operand sizes
+";0
+xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx;xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx;Matched with ground truth;1
+add edx, 32;add edx, 32;Matched with ground truth;1
+xor eax, eax \\n mov ebx, eax \\n mov ecx, eax \\n mov edx, eax;xor eax, eax \\n xor ebx, ebx \\n xor ecx, ecx \\n xor edx, edx;No compiler errors;1
+mov byte [esi + 1], dl;mov dl, byte [esi+1];No compiler errors;1
+push 0xb \\n pop eax;push __nr_execve \\n pop eax;"assembly_instruction.asm:1: error: symbol `__nr_execve' not defined
+";1
+or eax, 0xffffffff \\n not eax \\n push eax;mov eax, value -1 \\n not eax;"assembly_instruction.asm:1: error: symbol `value' not defined
+";1
+mov bl, 3 \\n dec bl \\n jnz l3;mov bl, 3 \\n dec bl \\n jnz l3;Matched with ground truth;1
+call decoder \\n shellcode: db 0x62,0x60,0xa0,0x34,0x5e,0x97,0xe6,0x34,0xd0,0x97,0xc4,0xb4,0xdc,0xc4,0xc7,0x28,0x13,0x71,0xa6,0xc4,0xc3,0x58,0x16,0xe6,0x01;jmp shellcode;"assembly_instruction.asm:1: error: symbol `shellcode' not defined
+";1
+mov al, 0x8;push byte 0x8 \\n pop 0x8;"assembly_instruction.asm:2: error: invalid combination of opcode and operands
+";0
+shr bl, 4;shr bl, 4;Matched with ground truth;1
+push 0x746f6f72;push 0x746f6f72;Matched with ground truth;1
+xor eax, eax \\n mov al, 6;xor eax, eax \\n mov numebr, esp;"assembly_instruction.asm:2: error: symbol `numebr' not defined
+";0
+ja exi;jge exi;"assembly_instruction.asm:1: error: symbol `exi' not defined
+";1
+mov ecx, 0x1;mov ecx, 0x1;Matched with ground truth;1
+mov eax, [ebx+esi*2+4];mov eax, [ebx+esi*2+4];Matched with ground truth;1
+_start: \\n jmp short call_shellcode;_start: \\n jmp short call_shellcode;Matched with ground truth;1
+mov edx, dword 0x65676760;mov edx, 0x65676760;No compiler errors;1
+xor ecx, ecx;xor ecx, ecx;Matched with ground truth;1
+sub eax, 3;dec eax;No compiler errors;1
+_file:;_file_label:;No compiler errors;1
+int 0x80;int 80h;No compiler errors;1
+push dword 0x3a303a3a;push dword 0x3a303a3a;Matched with ground truth;1
+cmp BYTE al, 2 \\n je do_inject;cmp al, 2 \\n jne do_inject;"assembly_instruction.asm:2: error: symbol `do_inject' not defined
+";1
+movq mm3, qword [esi];mov mm3, \shellcode\;"assembly_instruction.asm:1: error: symbol `shellcode' not defined
+";0
+je exit;jne exit;"assembly_instruction.asm:1: error: symbol `exit' not defined
+";1
+mov byte [edi], bl;mov byte [edi], bl;Matched with ground truth;1
+xchg edi,eax;xchg edi, eax;Matched with ground truth;1
+push eax \\n mov edx,esp;"push edx \\n push 0x68732f \\n push 0x68732f \\n push 0x6e69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x69622f \\n push 0x
+";"assembly_instruction.asm:2: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:3: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:4: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:5: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:6: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:7: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:8: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:9: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:10: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:11: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:12: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:13: warning: word data exceeds bounds [-w+number-overflow]
+assembly_instruction.asm:14: warning: word data exceeds bounds [-w+number-overflow]
+";1
