@@ -275,7 +275,7 @@ def verifySND(nameEXE, str_symbol, list_snippetsGR_spllited_by_backslash, elf64,
     if(os.stat("tempFile.txt").st_size == 0):
         
         if(elf64 == False):
-            os.system("ld -m i386pe -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
+            os.system("ld -m elf_i386 -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
         else:
             os.system("ld -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
     
@@ -298,9 +298,9 @@ def verifySND(nameEXE, str_symbol, list_snippetsGR_spllited_by_backslash, elf64,
                 f.write('\n\n')
                 f.write('section .text')
                 f.write('\n\n')
-                f.write('global my_start')
+                f.write('global _start')
                 f.write('\n\n')
-                f.write('my_start:')
+                f.write('_start:')
                 f.write('\n\n')
                 
                 for z in range(len(list_snippetsGR_spllited_by_backslash)):
@@ -323,7 +323,7 @@ def verifySND(nameEXE, str_symbol, list_snippetsGR_spllited_by_backslash, elf64,
                 else:
                                         
                     if(elf64 == False):
-                        os.system("ld -m i386pe -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj1.txt")
+                        os.system("ld -m elf_i386 -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj1.txt")
                     else:
                         os.system("ld -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj1.txt")
                 
@@ -361,9 +361,9 @@ def genEXE(snippet, nameEXE, output_dir):
         f.write('\n\n')
         f.write('section .text')
         f.write('\n\n')
-        f.write('global my_start')
+        f.write('global _start')
         f.write('\n\n')
-        f.write('my_start:')
+        f.write('_start:')
         f.write('\n\n')
         
         for z in range(len(list_snippetsGR_spllited_by_backslash)):
@@ -403,7 +403,7 @@ def genEXE(snippet, nameEXE, output_dir):
         
         os.chdir(output_dir)
         if(elf64 == False):
-            os.system("ld -m i386pe -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
+            os.system("ld -m elf_i386 -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
         else:
             os.system("ld -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
             
@@ -491,7 +491,7 @@ def genEXE(snippet, nameEXE, output_dir):
                 os.system("nasm -f elf64 "+ nameEXE + ".asm -o "+ nameEXE +".obj 2>> tempFile.txt")
                 
             if(elf64 == False):
-                os.system("ld -m i386pe -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
+                os.system("ld -m elf_i386 -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
             else:
                 os.system("ld -o "+ nameEXE + ".exe "+ nameEXE +".obj 2>> debugObj.txt")
 
@@ -784,7 +784,7 @@ def semantic_similarity(dir1, dir2):
     initialSP_simgr1 = ((str(simgr1.active[0].regs.esp).split(" "))[1].replace("]", "").replace(">", ""))
     initialSP_simgr2 = ((str(simgr2.active[0].regs.esp).split(" "))[1].replace("]", "").replace(">", ""))
     
-    MaxStep = 100
+    MaxStep = 10
     
     #Esecuzione simgr1
     stepAll(simgr1, MaxStep)
@@ -804,20 +804,39 @@ def semantic_similarity(dir1, dir2):
         #print("Similarità semantica non verificata")
         return False
    
+
+
+
+
+import os
+import argparse
+import pandas as pd
+
+# Set up argument parser
+parser = argparse.ArgumentParser(description="Provide input file name.")
+parser.add_argument('--input_file', required=True, help="Filename for the Syntactic Correctness results file")
+args = parser.parse_args()
+
+# Define the directories
 this_directory = os.getcwd()
-
-root = tk.Tk()
-root.withdraw()
-
-input_file = filedialog.askopenfile(initialdir= os.path.join(this_directory, os.path.join("Output", "Output_Syntactic_Analysis")), 
-                                          title = "Select the Syntactic Correctness results file")
-
+output_syntactic_analysis_dir = os.path.join(this_directory, "Output", "Output_Syntactic_Analysis")
 output_Folder = "Output_Semantic_Analysis"
-output_dir = os.path.join(this_directory, os.path.join("Output", output_Folder))
+output_dir = os.path.join(this_directory, "Output", output_Folder)
 
-syntactic_results = os.path.join(this_directory, input_file.name)
+# Construct full paths
+input_file = f"results_syntactic_analysis_{args.input_file}.csv"
+syntactic_results = os.path.join(output_syntactic_analysis_dir, args.input_file, input_file)
 
-data = pd.read_csv(syntactic_results, sep = ";", engine='python')
+# Verify that the input file exists before proceeding
+if not os.path.exists(syntactic_results):
+    raise FileNotFoundError(f"Syntactic Correctness results file not found: {syntactic_results}")
+
+print("Syntactic Results File:", syntactic_results)
+print("Output Directory:", output_dir)
+
+# Load the CSV data
+data = pd.read_csv(syntactic_results, sep=";", engine='python')
+print("Data Loaded:", data.head())
 
 #Inizializzazioni
 num_semantic_correct = 0
@@ -831,7 +850,7 @@ list_errorGenEXEPR = []
 
 score = []
 
-nameFile = "_".join((((input_file.name).split("/")[-1]).split(".")[0]).split("_")[3:])
+nameFile = "_".join((((input_file).split("/")[-1]).split(".")[0]).split("_")[3:])
 
 results_folder = os.path.join(output_dir, nameFile)
 

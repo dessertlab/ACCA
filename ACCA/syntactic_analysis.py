@@ -4,23 +4,34 @@ from pathlib import Path
 from tqdm import tqdm
 from tkinter import filedialog
 import tkinter as tk
+import argparse
 
+# Set up argument parser
+parser = argparse.ArgumentParser(description="Provide filenames for Ground Truth and Predictions files.")
+parser.add_argument('--ground_truth', required=True, help="Filename for the Ground Truth file")
+parser.add_argument('--predictions', required=True, help="Filename for the Predictions file")
+args = parser.parse_args()
+
+# Define the directories
 this_directory = os.getcwd()
+dir_Ground_Truth = os.path.join(this_directory, "Ground Truth and Predictions", "Ground Truth")
+dir_Predictions = os.path.join(this_directory, "Ground Truth and Predictions", "Predictions")
+output_dir = os.path.join(this_directory, "Output", "Output_Syntactic_Analysis")
 
-dir_Ground_Truth = os.path.join(this_directory, os.path.join("Ground Truth and Predictions", "Ground Truth"))
-ground_truth_name = os.listdir(dir_Ground_Truth)
-dir_Ground_Truth = os.path.join(dir_Ground_Truth, ground_truth_name[0])
+# Construct full paths by combining directories with filenames
+predictions_File = args.predictions
+dir_Ground_Truth = os.path.join(dir_Ground_Truth, args.ground_truth)
+dir_Predictions = os.path.join(dir_Predictions, predictions_File)
 
-dir_Predictions = os.path.join(this_directory, os.path.join("Ground Truth and Predictions", "Predictions"))
-output_dir = os.path.join(this_directory, os.path.join("Output", "Output_Syntactic_Analysis"))
+# Verify that the files exist before proceeding
+if not os.path.exists(dir_Ground_Truth):
+    raise FileNotFoundError(f"Ground Truth file not found: {dir_Ground_Truth}")
+if not os.path.exists(dir_Predictions):
+    raise FileNotFoundError(f"Predictions file not found: {dir_Predictions}")
 
-root = tk.Tk()
-root.withdraw()
-
-predictions_File = filedialog.askopenfile(initialdir= dir_Predictions, 
-                                          title = "Select Predictions File")
-
-dir_Predictions = os.path.join(dir_Predictions, predictions_File.name)
+print("Ground Truth File:", dir_Ground_Truth)
+print("Predictions File:", dir_Predictions)
+print("Output Directory:", output_dir)
 
 matching_GT = 0
 
@@ -240,7 +251,7 @@ print("Syntactic Correctness: "+ str((num_syntax_correct/prediction.size)*100)+"
 
 #Salvataggio degli snippets e degli output errati e quelli che generano warning
 
-nameFile = (predictions_File.name.split("/")[-1]).split(".")[0]
+nameFile = (predictions_File.split("/")[-1]).split(".")[0]
 print("File: " + str(nameFile))
 dir_results = os.path.join(output_dir, nameFile)
 
